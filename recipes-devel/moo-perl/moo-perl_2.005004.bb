@@ -23,7 +23,7 @@ RDEPENDS:${PN} += "sub-quote-perl"
 RRECOMMENDS:${PN} += "class-xsaccessor-perl"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Moo-${PV}"
+S = "${UNPACKDIR}/Moo-${PV}"
 
 inherit cpan allarch
 

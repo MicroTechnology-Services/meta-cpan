@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "c03d51f550dbfd9945722ff7f4c32717"
 SRC_URI[sha256sum] = "da34ef9029f6849d6026201d49127d054ee6ac4b979c82210315f5721964a96f"
 DEPENDS += "capture-tiny-perl-native"
 
-S = "${WORKDIR}/Test-FailWarnings-${PV}"
+S = "${UNPACKDIR}/Test-FailWarnings-${PV}"
 
 inherit cpan
 

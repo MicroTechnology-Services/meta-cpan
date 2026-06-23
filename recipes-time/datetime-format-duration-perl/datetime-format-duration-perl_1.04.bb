@@ -17,7 +17,7 @@ SRC_URI[sha256sum] = "c86b8095de3fe36dc53edda8b146318420a4425572863f8704e8529fc8
 RDEPENDS:${PN} += "datetime-perl"
 RDEPENDS:${PN} += "params-validate-perl"
 
-S = "${WORKDIR}/DateTime-Format-Duration-${PV}"
+S = "${UNPACKDIR}/DateTime-Format-Duration-${PV}"
 
 inherit cpan allarch
 

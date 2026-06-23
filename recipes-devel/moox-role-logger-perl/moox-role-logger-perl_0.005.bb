@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "log-any-perl"
 RDEPENDS:${PN} += "moo-perl"
 DEPENDS += "test-failwarnings-perl-native"
 
-S = "${WORKDIR}/MooX-Role-Logger-${PV}"
+S = "${UNPACKDIR}/MooX-Role-Logger-${PV}"
 
 inherit cpan allarch
 

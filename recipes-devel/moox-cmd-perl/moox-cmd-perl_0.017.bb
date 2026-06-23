@@ -29,7 +29,7 @@ RRECOMMENDS:${PN} += "hash-merge-perl"
 RRECOMMENDS:${PN} += "moox-configfromfile-perl"
 DEPENDS += "capture-tiny-perl-native"
 
-S = "${WORKDIR}/MooX-Cmd-${PV}"
+S = "${UNPACKDIR}/MooX-Cmd-${PV}"
 
 inherit cpan allarch
 

@@ -21,7 +21,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Warnings-0.031.t
 SRC_URI[md5sum] = "f608f7011b0bb8f27d3a27e646a52f60"
 SRC_URI[sha256sum] = "1e542909fef305e45563e9878ea1c3b0c7cef1b28bb7ae07eba2e1efabec477b"
 
-S = "${WORKDIR}/Test-Warnings-${PV}"
+S = "${UNPACKDIR}/Test-Warnings-${PV}"
 
 inherit cpan allarch
 

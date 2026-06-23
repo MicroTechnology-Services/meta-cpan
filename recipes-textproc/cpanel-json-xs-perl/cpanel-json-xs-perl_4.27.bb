@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RU/RURBAN/Cpanel-JSON-XS-4.27.
 SRC_URI[md5sum] = "92d1d9bf10ae344ea8e2224fc2711c28"
 SRC_URI[sha256sum] = "3aca5b346479726c56f197b5c98ff6036eb64590329d0480eb30120eea91044e"
 
-S = "${WORKDIR}/Cpanel-JSON-XS-${PV}"
+S = "${UNPACKDIR}/Cpanel-JSON-XS-${PV}"
 
 inherit cpan
 

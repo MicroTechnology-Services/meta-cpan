@@ -26,7 +26,7 @@ RDEPENDS:${PN} += "xml-sax-base-perl"
 RDEPENDS:${PN} += "xml-sax-perl"
 RDEPENDS:${PN} += "xml-namespacesupport-perl"
 
-S = "${WORKDIR}/XML-LibXML-${PV}"
+S = "${UNPACKDIR}/XML-LibXML-${PV}"
 
 inherit cpan
 

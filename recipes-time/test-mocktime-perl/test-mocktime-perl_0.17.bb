@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DD/DDICK/Test-MockTime-0.17.ta
 SRC_URI[md5sum] = "3cd809ebccc72b0701afbba51029ac56"
 SRC_URI[sha256sum] = "3363e118b2606f1d6abc956f22b0d09109772b7086155fb5c9c7f983350602f9"
 
-S = "${WORKDIR}/Test-MockTime-${PV}"
+S = "${UNPACKDIR}/Test-MockTime-${PV}"
 
 inherit cpan allarch
 

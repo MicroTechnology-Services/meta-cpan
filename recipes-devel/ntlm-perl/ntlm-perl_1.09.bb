@@ -19,7 +19,7 @@ SRC_URI[md5sum] = "da314ee94b14af2a2f39b6f2c0046e73"
 SRC_URI[sha256sum] = "c823e30cda76bc15636e584302c960e2b5eeef9517c2448f7454498893151f85"
 RDEPENDS:${PN} += "digest-hmac-perl"
 
-S = "${WORKDIR}/NTLM-${PV}"
+S = "${UNPACKDIR}/NTLM-${PV}"
 
 inherit cpan allarch
 

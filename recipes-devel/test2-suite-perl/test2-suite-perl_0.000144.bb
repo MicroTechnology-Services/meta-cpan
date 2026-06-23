@@ -23,7 +23,7 @@ RDEPENDS:${PN} += "sub-info-perl"
 RDEPENDS:${PN} += "term-table-perl"
 RDEPENDS:${PN} += "test-simple-perl"
 
-S = "${WORKDIR}/Test2-Suite-${PV}"
+S = "${UNPACKDIR}/Test2-Suite-${PV}"
 
 inherit cpan allarch
 

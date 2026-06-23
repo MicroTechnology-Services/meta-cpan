@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "af52f47979b3c9358af9e5d8c283f263"
 SRC_URI[sha256sum] = "6a73ae6a292834255b90da9409205425305fcfe994b148dcb6d2d6ef628db7df"
 RDEPENDS:${PN} += "padwalker-perl"
 
-S = "${WORKDIR}/Devel-Caller-${PV}"
+S = "${UNPACKDIR}/Devel-Caller-${PV}"
 
 inherit cpan
 

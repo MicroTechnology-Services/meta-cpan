@@ -23,7 +23,7 @@ RRECOMMENDS:${PN} += "test-deep-perl"
 DEPENDS += "algorithm-diff-perl-native"
 DEPENDS += "text-diff-perl-native"
 
-S = "${WORKDIR}/Test-Base-${PV}"
+S = "${UNPACKDIR}/Test-Base-${PV}"
 
 inherit cpan allarch
 

@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-Config-0.008
 SRC_URI[md5sum] = "565a7b09c7cac5907a25bbe2c959a717"
 SRC_URI[sha256sum] = "ae5104f634650dce8a79b7ed13fb59d67a39c213a6776cfdaa3ee749e62f1a8c"
 
-S = "${WORKDIR}/ExtUtils-Config-${PV}"
+S = "${UNPACKDIR}/ExtUtils-Config-${PV}"
 
 inherit cpan allarch
 

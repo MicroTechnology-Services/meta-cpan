@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "00f57f3feb02e4fb7d282f9d6ae2beb2"
 SRC_URI[sha256sum] = "f8696cfaca98234679efeedc288a9398fcf77176f1f515dbc589ada7c650dc93"
 DEPENDS = "zlib openssl"
 
-S = "${WORKDIR}/Net-SSLeay-${PV}"
+S = "${UNPACKDIR}/Net-SSLeay-${PV}"
 
 inherit cpan
 

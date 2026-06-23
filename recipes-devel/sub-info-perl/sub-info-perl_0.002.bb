@@ -16,7 +16,7 @@ SRC_URI[md5sum] = "335345b534fc0539c894050f7814cbda"
 SRC_URI[sha256sum] = "ea3056d696bdeff21a99d340d5570887d39a8cc47bff23adfc82df6758cdd0ea"
 RDEPENDS:${PN} += "importer-perl"
 
-S = "${WORKDIR}/Sub-Info-${PV}"
+S = "${UNPACKDIR}/Sub-Info-${PV}"
 
 inherit cpan allarch
 

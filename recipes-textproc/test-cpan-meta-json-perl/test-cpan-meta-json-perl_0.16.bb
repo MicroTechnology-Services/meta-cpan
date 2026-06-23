@@ -22,7 +22,7 @@ RECOMMENDS += "test-cpan-meta-perl-native"
 RECOMMENDS += "test-pod-coverage-perl-native"
 RECOMMENDS += "test-pod-perl-native"
 
-S = "${WORKDIR}/Test-CPAN-Meta-JSON-${PV}"
+S = "${UNPACKDIR}/Test-CPAN-Meta-JSON-${PV}"
 
 inherit cpan allarch
 

@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Scope-Upper-0.33.tar.g
 SRC_URI[md5sum] = "7429e28c36297aba11d7655edc74385a"
 SRC_URI[sha256sum] = "5f33be01ad68fcbec6ef81eeb03b3511a2f5f0752ad513d993a4c13a5fb1a648"
 
-S = "${WORKDIR}/Scope-Upper-${PV}"
+S = "${UNPACKDIR}/Scope-Upper-${PV}"
 
 inherit cpan
 

@@ -16,7 +16,7 @@ SRC_URI[md5sum] = "8fd3e4adabcfe44b5c3fba28b1d10168"
 SRC_URI[sha256sum] = "a08871fca2054c464ec6cd663fbdb2fce99cc0346256acf0a4936681ed8a0e00"
 RDEPENDS:${PN} += "exporter-tiny-perl"
 
-S = "${WORKDIR}/Regexp-Util-${PV}"
+S = "${UNPACKDIR}/Regexp-Util-${PV}"
 
 inherit cpan
 

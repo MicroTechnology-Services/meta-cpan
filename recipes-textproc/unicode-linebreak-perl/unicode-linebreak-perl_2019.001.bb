@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "003d6da7a13700e069afed9238c864b9"
 SRC_URI[sha256sum] = "486762e4cacddcc77b13989f979a029f84630b8175e7fef17989e157d4b6318a"
 RDEPENDS:${PN} += "mime-charset-perl"
 
-S = "${WORKDIR}/Unicode-LineBreak-${PV}"
+S = "${UNPACKDIR}/Unicode-LineBreak-${PV}"
 
 inherit cpan
 

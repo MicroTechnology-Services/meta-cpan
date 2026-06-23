@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-Pod-1.52.tar.gz"
 SRC_URI[md5sum] = "472dda77746d48e6465bf62e47aeca81"
 SRC_URI[sha256sum] = "60a8dbcc60168bf1daa5cc2350236df9343e9878f4ab9830970a5dde6fe8e5fc"
 
-S = "${WORKDIR}/Test-Pod-${PV}"
+S = "${UNPACKDIR}/Test-Pod-${PV}"
 
 inherit cpan allarch
 

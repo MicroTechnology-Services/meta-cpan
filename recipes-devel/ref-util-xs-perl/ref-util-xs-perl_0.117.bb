@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/X/XS/XSAWYERX/Ref-Util-XS-0.117.
 SRC_URI[md5sum] = "f9ae3f0495849ad49b5c7919d84444e4"
 SRC_URI[sha256sum] = "fb64c5a823787f6600257918febd9fbc6f0305936fc3287b81a30c099b65633c"
 
-S = "${WORKDIR}/Ref-Util-XS-${PV}"
+S = "${UNPACKDIR}/Ref-Util-XS-${PV}"
 
 inherit cpan
 

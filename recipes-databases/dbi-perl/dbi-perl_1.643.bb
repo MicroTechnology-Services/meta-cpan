@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/T/TI/TIMB/DBI-1.643.tar.gz"
 SRC_URI[md5sum] = "352f80b1e23769c116082a90905d7398"
 SRC_URI[sha256sum] = "8a2b993db560a2c373c174ee976a51027dd780ec766ae17620c20393d2e836fa"
 
-S = "${WORKDIR}/DBI-${PV}"
+S = "${UNPACKDIR}/DBI-${PV}"
 
 inherit cpan
 

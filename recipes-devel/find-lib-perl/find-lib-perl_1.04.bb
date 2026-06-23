@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/Y/YA/YANNK/Find-Lib-1.04.tar.gz"
 SRC_URI[md5sum] = "bf5619b4ba1945320eccef69b028c453"
 SRC_URI[sha256sum] = "1d73921e3061e1b046fe4268e2d05ffd5a4c5762666e2e4723f83aacc146e851"
 
-S = "${WORKDIR}/Find-Lib-${PV}"
+S = "${UNPACKDIR}/Find-Lib-${PV}"
 
 inherit cpan allarch
 

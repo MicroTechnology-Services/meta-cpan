@@ -21,7 +21,7 @@ DEPENDS += "module-build-perl-native"
 DEPENDS += "test-base-perl-native"
 DEPENDS += "test-differences-perl-native"
 
-S = "${WORKDIR}/ExtUtils-XSpp-${PV}"
+S = "${UNPACKDIR}/ExtUtils-XSpp-${PV}"
 
 inherit cpan_build allarch
 

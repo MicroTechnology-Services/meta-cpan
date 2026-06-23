@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "34b8a5f29991311468fe6913cadaba75fd5d2b0b3ee3bb41fe5b53efab
 RDEPENDS:${PN} += "sub-exporter-progressive-perl"
 RRECOMMENDS:${PN} += "devel-globaldestruction-xs-perl"
 
-S = "${WORKDIR}/Devel-GlobalDestruction-${PV}"
+S = "${UNPACKDIR}/Devel-GlobalDestruction-${PV}"
 
 inherit cpan allarch
 

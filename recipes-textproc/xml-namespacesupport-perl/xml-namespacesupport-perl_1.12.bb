@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PERIGRIN/XML-NamespaceSuppo
 SRC_URI[md5sum] = "a8916c6d095bcf073e1108af02e78c97"
 SRC_URI[sha256sum] = "47e995859f8dd0413aa3f22d350c4a62da652e854267aa0586ae544ae2bae5ef"
 
-S = "${WORKDIR}/XML-NamespaceSupport-${PV}"
+S = "${UNPACKDIR}/XML-NamespaceSupport-${PV}"
 
 inherit cpan allarch
 

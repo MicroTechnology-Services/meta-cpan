@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "crypt-cbc-perl"
 RDEPENDS:${PN} += "data-uuid-perl"
 DEPENDS += "module-build-tiny-perl-native"
 
-S = "${WORKDIR}/Growl-GNTP-${PV}"
+S = "${UNPACKDIR}/Growl-GNTP-${PV}"
 
 inherit cpan_build allarch
 

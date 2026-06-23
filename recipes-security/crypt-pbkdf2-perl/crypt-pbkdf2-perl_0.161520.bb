@@ -31,7 +31,7 @@ RDEPENDS:${PN} += "try-tiny-perl"
 RDEPENDS:${PN} += "type-tiny-perl"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Crypt-PBKDF2-${PV}"
+S = "${UNPACKDIR}/Crypt-PBKDF2-${PV}"
 
 inherit cpan allarch
 

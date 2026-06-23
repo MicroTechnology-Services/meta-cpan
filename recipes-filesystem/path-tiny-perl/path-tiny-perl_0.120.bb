@@ -21,7 +21,7 @@ RRECOMMENDS:${PN} += "unicode-utf8-perl"
 RECOMMENDS += "test-failwarnings-perl-native"
 RECOMMENDS += "test-mockrandom-perl-native"
 
-S = "${WORKDIR}/Path-Tiny-${PV}"
+S = "${UNPACKDIR}/Path-Tiny-${PV}"
 
 inherit cpan allarch
 

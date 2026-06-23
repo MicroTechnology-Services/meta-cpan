@@ -64,7 +64,7 @@ DEPENDS += "http-message-perl-native"
 DEPENDS += "test-eol-perl-native"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Dancer2-${PV}"
+S = "${UNPACKDIR}/Dancer2-${PV}"
 
 inherit cpan allarch
 

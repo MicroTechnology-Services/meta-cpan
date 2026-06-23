@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIKER/Math-Base-Convert-0.1
 SRC_URI[md5sum] = "aed8356d8e2870ee1d27a7b6c5752714"
 SRC_URI[sha256sum] = "8c0971355f24c93b79e77ad54a4570090a1a598fcb9b86f5c17eba42f38b40e0"
 
-S = "${WORKDIR}/Math-Base-Convert-${PV}"
+S = "${UNPACKDIR}/Math-Base-Convert-${PV}"
 
 inherit cpan allarch
 

@@ -25,7 +25,7 @@ RDEPENDS:${PN} += "try-tiny-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/DateTime-Format-Strptime-${PV}"
+S = "${UNPACKDIR}/DateTime-Format-Strptime-${PV}"
 
 inherit cpan allarch
 

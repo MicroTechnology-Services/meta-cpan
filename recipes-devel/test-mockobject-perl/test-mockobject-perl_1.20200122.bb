@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "universal-isa-perl"
 DEPENDS += "test-exception-perl-native"
 DEPENDS += "test-warn-perl-native"
 
-S = "${WORKDIR}/Test-MockObject-${PV}"
+S = "${UNPACKDIR}/Test-MockObject-${PV}"
 
 inherit cpan allarch
 

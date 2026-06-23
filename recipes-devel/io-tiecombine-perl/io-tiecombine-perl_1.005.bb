@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/IO-TieCombine-1.005.ta
 SRC_URI[md5sum] = "9538a96407b32d697a4244959a9f0a7a"
 SRC_URI[sha256sum] = "402d4db8300b3d271632f4995e0ade329d89280a7e47f2badf8b38af6e5569af"
 
-S = "${WORKDIR}/IO-TieCombine-${PV}"
+S = "${UNPACKDIR}/IO-TieCombine-${PV}"
 
 inherit cpan allarch
 

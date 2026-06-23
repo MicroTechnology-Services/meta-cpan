@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "1a4f70dff1a47b3eb96bdeac50db2ec5"
 SRC_URI[sha256sum] = "5e0ad9d43e266033856e424e104a0009f8e63449e40cd5aba59ad94cb1bcee72"
 RDEPENDS:${PN} += "devel-caller-perl"
 
-S = "${WORKDIR}/Devel-LexAlias-${PV}"
+S = "${UNPACKDIR}/Devel-LexAlias-${PV}"
 
 inherit cpan
 

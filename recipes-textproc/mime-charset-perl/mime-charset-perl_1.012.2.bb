@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/MIME-Charset-1.012.2
 SRC_URI[md5sum] = "71440416376248c31aa3bef753fae28d"
 SRC_URI[sha256sum] = "878c779c0256c591666bd06c0cde4c0d7820eeeb98fd1183082aee9a1e7b1d13"
 
-S = "${WORKDIR}/MIME-Charset-${PV}"
+S = "${UNPACKDIR}/MIME-Charset-${PV}"
 
 inherit cpan allarch
 

@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/K/KR/KRYDE/constant-defer-6.tar.
 SRC_URI[md5sum] = "6af9912fa420340e9e171ac81f450492"
 SRC_URI[sha256sum] = "7b21263198ca22686efff3ae987a240be423dd2160afdeb29fe716d032986ffa"
 
-S = "${WORKDIR}/constant-defer-${PV}"
+S = "${UNPACKDIR}/constant-defer-${PV}"
 
 inherit cpan
 

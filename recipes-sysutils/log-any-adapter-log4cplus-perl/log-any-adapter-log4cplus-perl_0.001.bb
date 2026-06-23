@@ -17,7 +17,7 @@ SRC_URI[sha256sum] = "5d8e7776cc7931fa9fe0bb1f825feed44911ac3492e31908b657d68133
 RDEPENDS:${PN} += "lib-log4cplus-perl"
 RDEPENDS:${PN} += "log-any-perl"
 
-S = "${WORKDIR}/Log-Any-Adapter-Log4cplus-${PV}"
+S = "${UNPACKDIR}/Log-Any-Adapter-Log4cplus-${PV}"
 
 inherit cpan allarch
 

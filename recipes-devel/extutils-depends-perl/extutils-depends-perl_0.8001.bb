@@ -19,7 +19,7 @@ SRC_URI[md5sum] = "ca203697162b842c6c1e25ce102b79a5"
 SRC_URI[sha256sum] = "673c4387e7896c1a216099c1fbb3faaa7763d7f5f95a1a56a60a2a2906c131c5"
 RECOMMENDS += "test-number-delta-perl-native"
 
-S = "${WORKDIR}/ExtUtils-Depends-${PV}"
+S = "${UNPACKDIR}/ExtUtils-Depends-${PV}"
 
 inherit cpan allarch
 

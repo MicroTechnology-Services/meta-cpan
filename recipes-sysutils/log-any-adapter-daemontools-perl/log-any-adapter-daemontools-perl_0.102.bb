@@ -26,7 +26,7 @@ SRC_URI[md5sum] = "ce271ffd974964b8c5b0c9d135f980f4"
 SRC_URI[sha256sum] = "a512f5f54e9e25102b83137572d8ac3cb71d1d4a0e5703df63cf0a6f94ddab44"
 RDEPENDS:${PN} += "log-any-perl"
 
-S = "${WORKDIR}/Log-Any-Adapter-Daemontools-${PV}"
+S = "${UNPACKDIR}/Log-Any-Adapter-Daemontools-${PV}"
 
 inherit cpan allarch
 

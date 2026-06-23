@@ -21,7 +21,7 @@ RDEPENDS:${PN} += "libxml-perl-perl"
 RDEPENDS:${PN} += "xml-parser-perl"
 RDEPENDS:${PN} += "xml-regexp-perl"
 
-S = "${WORKDIR}/XML-DOM-${PV}"
+S = "${UNPACKDIR}/XML-DOM-${PV}"
 
 inherit cpan allarch
 

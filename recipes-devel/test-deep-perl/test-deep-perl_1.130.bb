@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Test-Deep-1.130.tar.gz
 SRC_URI[md5sum] = "d466e471108f7f7a5df3802cb13761ac"
 SRC_URI[sha256sum] = "4064f494f5f62587d0ae501ca439105821ee5846c687dc6503233f55300a7c56"
 
-S = "${WORKDIR}/Test-Deep-${PV}"
+S = "${UNPACKDIR}/Test-Deep-${PV}"
 
 inherit cpan allarch
 

@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "d83519971479872bd585ff7a9d523079"
 SRC_URI[sha256sum] = "bc74191dc39d2331948ce98fe750c5b0064aa71197c1e265c6674e750e64a3bd"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/Devel-MAT-Dumper-${PV}"
+S = "${UNPACKDIR}/Devel-MAT-Dumper-${PV}"
 
 EXTRA_CPAN_BUILD_FLAGS = "--config cc="${CC}" --config ccflags="${CFLAGS}" --config ld="${CCLD} ${LDFLAGS}""
 

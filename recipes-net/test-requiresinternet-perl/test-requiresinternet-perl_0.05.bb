@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MALLEN/Test-RequiresInterne
 SRC_URI[md5sum] = "0ba9f1cff4cf90ed2618c2eddfd525d8"
 SRC_URI[sha256sum] = "bba7b32a1cc0d58ce2ec20b200a7347c69631641e8cae8ff4567ad24ef1e833e"
 
-S = "${WORKDIR}/Test-RequiresInternet-${PV}"
+S = "${UNPACKDIR}/Test-RequiresInternet-${PV}"
 
 inherit cpan allarch
 

@@ -19,7 +19,7 @@ SRC_URI[md5sum] = "b7186e8b8b3701e70c22abf430742403"
 SRC_URI[sha256sum] = "46b502e7a288d559429891eeb5d979461dd3ecc6a5c491ead85d165b6e03a51e"
 RDEPENDS:${PN} += "uri-perl"
 
-S = "${WORKDIR}/WWW-RobotRules-${PV}"
+S = "${UNPACKDIR}/WWW-RobotRules-${PV}"
 
 inherit cpan allarch
 

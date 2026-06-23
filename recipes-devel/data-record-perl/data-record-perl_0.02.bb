@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "1d6ae66da2767520c21fbf12c538f1007ab27445d92c8eac763653f2b8
 RDEPENDS:${PN} += "sub-uplevel-perl"
 DEPENDS += "test-exception-perl-native"
 
-S = "${WORKDIR}/Data-Record-${PV}"
+S = "${UNPACKDIR}/Data-Record-${PV}"
 
 inherit cpan allarch
 

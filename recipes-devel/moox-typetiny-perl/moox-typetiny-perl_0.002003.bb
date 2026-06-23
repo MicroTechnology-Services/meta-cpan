@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "moo-perl"
 RDEPENDS:${PN} += "type-tiny-perl"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/MooX-TypeTiny-${PV}"
+S = "${UNPACKDIR}/MooX-TypeTiny-${PV}"
 
 inherit cpan allarch
 

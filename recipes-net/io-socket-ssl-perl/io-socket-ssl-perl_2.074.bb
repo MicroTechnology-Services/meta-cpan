@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "36486b6be49da4d029819cf7069a7b41ed48af0c87e23be0f8e6aba23d
 RDEPENDS:${PN} += "mozilla-ca-perl"
 RDEPENDS:${PN} += "net-ssleay-perl"
 
-S = "${WORKDIR}/IO-Socket-SSL-${PV}"
+S = "${UNPACKDIR}/IO-Socket-SSL-${PV}"
 
 inherit cpan allarch
 

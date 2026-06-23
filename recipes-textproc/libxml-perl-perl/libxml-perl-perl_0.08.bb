@@ -20,7 +20,7 @@ SRC_URI[sha256sum] = "4571059b7b5d48b7ce52b01389e95d798bf5cf2020523c153ff27b4981
 DEPENDS += "xml-parser-perl"
 RDEPENDS:${PN} += "xml-parser-perl"
 
-S = "${WORKDIR}/libxml-perl-${PV}"
+S = "${UNPACKDIR}/libxml-perl-${PV}"
 
 inherit cpan allarch
 

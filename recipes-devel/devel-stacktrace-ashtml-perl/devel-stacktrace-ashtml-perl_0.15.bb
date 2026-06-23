@@ -20,7 +20,7 @@ SRC_URI[md5sum] = "4ec8bd92e4a765a7cabf402db9640412"
 SRC_URI[sha256sum] = "6283dbe2197e2f20009cc4b449997742169cdd951bfc44cbc6e62c2a962d3147"
 RDEPENDS:${PN} += "devel-stacktrace-perl"
 
-S = "${WORKDIR}/Devel-StackTrace-AsHTML-${PV}"
+S = "${UNPACKDIR}/Devel-StackTrace-AsHTML-${PV}"
 
 inherit cpan allarch
 

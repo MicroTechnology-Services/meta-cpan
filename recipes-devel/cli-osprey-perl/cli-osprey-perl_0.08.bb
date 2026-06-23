@@ -29,7 +29,7 @@ DEPENDS += "capture-tiny-perl-native"
 DEPENDS += "module-build-tiny-perl-native"
 DEPENDS += "test-lib-perl-native"
 
-S = "${WORKDIR}/CLI-Osprey-${PV}"
+S = "${UNPACKDIR}/CLI-Osprey-${PV}"
 
 inherit cpan_build allarch
 

@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Safe-Isa-1.000010.tar
 SRC_URI[md5sum] = "f68579f6acfeb2e19d7d9a65100399d8"
 SRC_URI[sha256sum] = "87f4148aa0ff1d5e652723322eab7dafa3801c967d6f91ac9147a3c467b8a66a"
 
-S = "${WORKDIR}/Safe-Isa-${PV}"
+S = "${UNPACKDIR}/Safe-Isa-${PV}"
 
 inherit cpan allarch
 

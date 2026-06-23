@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "uri-perl"
 DEPENDS += "module-build-tiny-perl-native"
 DEPENDS += "test-time-perl-native"
 
-S = "${WORKDIR}/Cookie-Baker-${PV}"
+S = "${UNPACKDIR}/Cookie-Baker-${PV}"
 
 inherit cpan_build allarch
 

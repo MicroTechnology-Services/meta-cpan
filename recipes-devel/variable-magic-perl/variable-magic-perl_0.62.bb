@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-0.62.ta
 SRC_URI[md5sum] = "588d94ec3d98dece878a776d161c1dda"
 SRC_URI[sha256sum] = "3f9a18517e33f006a9c2fc4f43f01b54abfe6ff2eae7322424f31069296b615c"
 
-S = "${WORKDIR}/Variable-Magic-${PV}"
+S = "${UNPACKDIR}/Variable-Magic-${PV}"
 
 inherit cpan
 

@@ -27,7 +27,7 @@ DEPENDS += "math-base-convert-perl-native"
 DEPENDS += "perl"
 DEPENDS += "test-deep-perl-native"
 
-S = "${WORKDIR}/SQL-Statement-${PV}"
+S = "${UNPACKDIR}/SQL-Statement-${PV}"
 
 inherit cpan allarch
 

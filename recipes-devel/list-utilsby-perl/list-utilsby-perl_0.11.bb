@@ -21,7 +21,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/List-UtilsBy-0.11.ta
 SRC_URI[md5sum] = "14469e1029060490bc3a563f0e59e5f1"
 SRC_URI[sha256sum] = "faddf43b4bc21db8e4c0e89a26e5f23fe626cde3491ec651b6aa338627f5775a"
 
-S = "${WORKDIR}/List-UtilsBy-${PV}"
+S = "${UNPACKDIR}/List-UtilsBy-${PV}"
 
 inherit cpan allarch
 

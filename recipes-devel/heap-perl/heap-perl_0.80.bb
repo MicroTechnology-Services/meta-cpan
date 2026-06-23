@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/J/JM/JMM/Heap-0.80.tar.gz"
 SRC_URI[md5sum] = "05fed19a7552dadee11c780cd68c0116"
 SRC_URI[sha256sum] = "ccda29f3c93176ad0fdfff4dd6f5e4ac90b370cba4b028386b7343bf64139bde"
 
-S = "${WORKDIR}/Heap-${PV}"
+S = "${UNPACKDIR}/Heap-${PV}"
 
 inherit cpan allarch
 

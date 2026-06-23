@@ -21,7 +21,7 @@ RDEPENDS:${PN} += "convert-color-xterm-perl"
 RDEPENDS:${PN} += "string-tagged-perl"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/String-Tagged-Terminal-${PV}"
+S = "${UNPACKDIR}/String-Tagged-Terminal-${PV}"
 
 inherit cpan_build allarch
 

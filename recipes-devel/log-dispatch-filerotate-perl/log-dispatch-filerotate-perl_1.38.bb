@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "log-dispatch-perl"
 DEPENDS += "path-tiny-perl-native"
 DEPENDS += "test-warn-perl-native"
 
-S = "${WORKDIR}/Log-Dispatch-FileRotate-${PV}"
+S = "${UNPACKDIR}/Log-Dispatch-FileRotate-${PV}"
 
 inherit cpan allarch
 

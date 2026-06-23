@@ -75,7 +75,7 @@ DEPENDS += "http-message-perl-native"
 DEPENDS += "plack-perl-native"
 DEPENDS += "template-toolkit-perl-native"
 
-S = "${WORKDIR}/Dancer2-Plugin-Auth-YARBAC-${PV}"
+S = "${UNPACKDIR}/Dancer2-Plugin-Auth-YARBAC-${PV}"
 
 inherit cpan allarch
 

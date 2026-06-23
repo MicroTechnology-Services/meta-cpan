@@ -26,7 +26,7 @@ RDEPENDS:${PN} += "www-form-urlencoded-perl"
 DEPENDS += "http-message-perl-native"
 DEPENDS += "module-build-tiny-perl-native"
 
-S = "${WORKDIR}/HTTP-Entity-Parser-${PV}"
+S = "${UNPACKDIR}/HTTP-Entity-Parser-${PV}"
 
 inherit cpan_build allarch
 

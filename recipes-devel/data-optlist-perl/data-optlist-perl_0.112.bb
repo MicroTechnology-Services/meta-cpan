@@ -19,7 +19,7 @@ SRC_URI[sha256sum] = "62c60ccaae88d5339ae36bcc8940b03388cf84adbf27828b1f8b300307
 RDEPENDS:${PN} += "params-util-perl"
 RDEPENDS:${PN} += "sub-install-perl"
 
-S = "${WORKDIR}/Data-OptList-${PV}"
+S = "${UNPACKDIR}/Data-OptList-${PV}"
 
 inherit cpan allarch
 

@@ -21,7 +21,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/C/CH/CHOCOLATE/Scope-Guard-0.21.
 SRC_URI[md5sum] = "be57b915d23ddac7677ef2ad9e52b92a"
 SRC_URI[sha256sum] = "8c9b1bea5c56448e2c3fadc65d05be9e4690a3823a80f39d2f10fdd8f777d278"
 
-S = "${WORKDIR}/Scope-Guard-${PV}"
+S = "${UNPACKDIR}/Scope-Guard-${PV}"
 
 inherit cpan allarch
 

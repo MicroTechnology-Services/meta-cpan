@@ -21,7 +21,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/S/SM/SMUELLER/Class-XSAccessor-1
 SRC_URI[md5sum] = "5c5dea74f00ad37c5119dd22b28a5563"
 SRC_URI[sha256sum] = "99c56b395f1239af19901f2feeb125d9ecb4e351a0d80daa9529211a4700a6f2"
 
-S = "${WORKDIR}/Class-XSAccessor-${PV}"
+S = "${UNPACKDIR}/Class-XSAccessor-${PV}"
 
 inherit cpan
 

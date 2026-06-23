@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "5a40e7cf524e4bd2c33cf03b82b47d5308b712083aa5ee180b0b5af54c
 RDEPENDS:${PN} += "digest-hmac-perl"
 RRECOMMENDS:${PN} += "digest-bubblebabble-perl"
 
-S = "${WORKDIR}/Net-DNS-${PV}"
+S = "${UNPACKDIR}/Net-DNS-${PV}"
 
 inherit cpan allarch
 

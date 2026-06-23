@@ -19,7 +19,7 @@ SRC_URI[md5sum] = "214cb8d14627cbff13e0a6de3ac18bb0"
 SRC_URI[sha256sum] = "8e9d256e0ac4384228384b4ad2a57819a163edb39f20988ed5c1318c01407070"
 RDEPENDS:${PN} += "file-sharedir-perl"
 
-S = "${WORKDIR}/File-Share-${PV}"
+S = "${UNPACKDIR}/File-Share-${PV}"
 
 inherit cpan allarch
 

@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/S/SH/SHANCOCK/Perl-Tidy-20211029
 SRC_URI[md5sum] = "edf2140290fb0d285c881221599bc286"
 SRC_URI[sha256sum] = "ec03b1e36a57d094569a30082688f722253401c7cc934ac64d2e3eb4de880eda"
 
-S = "${WORKDIR}/Perl-Tidy-${PV}"
+S = "${UNPACKDIR}/Perl-Tidy-${PV}"
 
 inherit cpan allarch
 

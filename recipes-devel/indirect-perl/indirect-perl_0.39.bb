@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/V/VP/VPIT/indirect-0.39.tar.gz"
 SRC_URI[md5sum] = "3509a7e745959e683318c5db1bb02ef4"
 SRC_URI[sha256sum] = "71733c4c348e98fdd575b44a52042428c39888a18c25656efe59ef3d7d0d27e5"
 
-S = "${WORKDIR}/indirect-${PV}"
+S = "${UNPACKDIR}/indirect-${PV}"
 
 inherit cpan
 

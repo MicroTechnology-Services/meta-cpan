@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIK/CryptX-0.076.tar.gz"
 SRC_URI[md5sum] = "8e59e8f2dc6ff91fc151a078277a9f00"
 SRC_URI[sha256sum] = "bb84ac012438c7cecdb51a5a6fffb4f1fee3b0eae0022e96cebc2e167522621c"
 
-S = "${WORKDIR}/CryptX-${PV}"
+S = "${UNPACKDIR}/CryptX-${PV}"
 
 inherit cpan
 

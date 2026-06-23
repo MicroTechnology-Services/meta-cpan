@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "00f0b95716b18157132c6c118ded8ba31392563d19e490433e9a65382e
 RECOMMENDS += "test-fatal-perl-native"
 RECOMMENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/Exporter-Tiny-${PV}"
+S = "${UNPACKDIR}/Exporter-Tiny-${PV}"
 
 inherit cpan allarch
 

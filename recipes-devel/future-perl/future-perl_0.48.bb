@@ -21,7 +21,7 @@ DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-identity-perl-native"
 DEPENDS += "test-refcount-perl-native"
 
-S = "${WORKDIR}/Future-${PV}"
+S = "${UNPACKDIR}/Future-${PV}"
 
 inherit cpan_build allarch
 

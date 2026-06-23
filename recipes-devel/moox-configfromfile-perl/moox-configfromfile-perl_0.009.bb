@@ -24,7 +24,7 @@ RDEPENDS:${PN} += "moox-file-configdir-perl"
 DEPENDS += "hash-merge-perl-native"
 DEPENDS += "json-perl-native"
 
-S = "${WORKDIR}/MooX-ConfigFromFile-${PV}"
+S = "${UNPACKDIR}/MooX-ConfigFromFile-${PV}"
 
 inherit cpan allarch
 

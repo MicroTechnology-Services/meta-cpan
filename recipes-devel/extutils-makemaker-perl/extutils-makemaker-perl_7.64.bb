@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/B/BI/BINGOS/ExtUtils-MakeMaker-7
 SRC_URI[md5sum] = "5c417a5ff2236c0ee7ab3412c4575ad8"
 SRC_URI[sha256sum] = "4a6ac575815c0413b1f58967043cc9f2e166446b73c687f9bc62b5eaed9464a0"
 
-S = "${WORKDIR}/ExtUtils-MakeMaker-${PV}"
+S = "${UNPACKDIR}/ExtUtils-MakeMaker-${PV}"
 
 inherit cpan allarch
 

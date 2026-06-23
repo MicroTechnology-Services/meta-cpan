@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Algorithm-Diff-1.201.t
 SRC_URI[md5sum] = "2eaae910f5220261ee2bbdfc4a8df2c2"
 SRC_URI[sha256sum] = "0022da5982645d9ef0207f3eb9ef63e70e9713ed2340ed7b3850779b0d842a7d"
 
-S = "${WORKDIR}/Algorithm-Diff-${PV}"
+S = "${UNPACKDIR}/Algorithm-Diff-${PV}"
 
 inherit cpan allarch
 

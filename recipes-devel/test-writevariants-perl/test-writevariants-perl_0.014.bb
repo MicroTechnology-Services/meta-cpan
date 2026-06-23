@@ -21,7 +21,7 @@ RRECOMMENDS:${PN} += "file-find-rule-perl"
 DEPENDS += "test-directory-perl-native"
 DEPENDS += "test-most-perl-native"
 
-S = "${WORKDIR}/Test-WriteVariants-${PV}"
+S = "${UNPACKDIR}/Test-WriteVariants-${PV}"
 
 inherit cpan allarch
 

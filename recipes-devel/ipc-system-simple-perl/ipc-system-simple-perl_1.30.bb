@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/IPC-System-Simple-1
 SRC_URI[md5sum] = "e68341fd958fd013b3521d909904f675"
 SRC_URI[sha256sum] = "22e6f5222b505ee513058fdca35ab7a1eab80539b98e5ca4a923a70a8ae9ba9e"
 
-S = "${WORKDIR}/IPC-System-Simple-${PV}"
+S = "${UNPACKDIR}/IPC-System-Simple-${PV}"
 
 inherit cpan allarch
 

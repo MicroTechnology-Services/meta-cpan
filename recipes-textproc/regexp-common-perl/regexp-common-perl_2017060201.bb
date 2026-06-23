@@ -21,7 +21,7 @@ SRC_URI[md5sum] = "b1bb40759b84154990f36a160160fb94"
 SRC_URI[sha256sum] = "ee07853aee06f310e040b6bf1a0199a18d81896d3219b9b35c9630d0eb69089b"
 RECOMMENDS += "test-regexp-perl-native"
 
-S = "${WORKDIR}/Regexp-Common-${PV}"
+S = "${UNPACKDIR}/Regexp-Common-${PV}"
 
 inherit cpan allarch
 

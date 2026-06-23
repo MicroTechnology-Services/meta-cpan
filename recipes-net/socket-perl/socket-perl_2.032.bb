@@ -21,7 +21,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Socket-2.032.tar.gz"
 SRC_URI[md5sum] = "bf3d0e13ff6775e0058b8f5ddaad626a"
 SRC_URI[sha256sum] = "20ecb6ad469f4a13c5c7a891abfa12a3cecfdeccc7140ad57b05be12815dd517"
 
-S = "${WORKDIR}/Socket-${PV}"
+S = "${UNPACKDIR}/Socket-${PV}"
 
 inherit cpan
 

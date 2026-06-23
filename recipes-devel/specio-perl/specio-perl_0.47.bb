@@ -25,7 +25,7 @@ RDEPENDS:${PN} += "try-tiny-perl"
 RRECOMMENDS:${PN} += "ref-util-perl"
 DEPENDS += "test-needs-perl-native"
 
-S = "${WORKDIR}/Specio-${PV}"
+S = "${UNPACKDIR}/Specio-${PV}"
 
 inherit cpan allarch
 

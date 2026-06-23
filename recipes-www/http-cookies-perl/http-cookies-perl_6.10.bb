@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "http-date-perl"
 RDEPENDS:${PN} += "http-message-perl"
 DEPENDS += "uri-perl-native"
 
-S = "${WORKDIR}/HTTP-Cookies-${PV}"
+S = "${UNPACKDIR}/HTTP-Cookies-${PV}"
 
 inherit cpan allarch
 

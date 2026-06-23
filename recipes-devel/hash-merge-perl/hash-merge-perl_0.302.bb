@@ -22,7 +22,7 @@ SRC_URI[md5sum] = "6f65d0a4ca2a7bd42975c8869dcc24da"
 SRC_URI[sha256sum] = "ae0522f76539608b61dde14670e79677e0f391036832f70a21f31adde2538644"
 RDEPENDS:${PN} += "clone-choose-perl"
 
-S = "${WORKDIR}/Hash-Merge-${PV}"
+S = "${UNPACKDIR}/Hash-Merge-${PV}"
 
 inherit cpan allarch
 

@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.16.t
 SRC_URI[md5sum] = "7dccb639178148d6113cf1fc83b02886"
 SRC_URI[sha256sum] = "6540085e3804b82a6f0752c1122cf78cadd221990136dd6fd4c097d056c84d40"
 
-S = "${WORKDIR}/Crypt-Rijndael-${PV}"
+S = "${UNPACKDIR}/Crypt-Rijndael-${PV}"
 
 inherit cpan
 

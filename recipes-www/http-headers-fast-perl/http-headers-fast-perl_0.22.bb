@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "http-date-perl"
 DEPENDS += "module-build-tiny-perl-native"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/HTTP-Headers-Fast-${PV}"
+S = "${UNPACKDIR}/HTTP-Headers-Fast-${PV}"
 
 inherit cpan_build allarch
 

@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AN/ANDK/Devel-Symdump-2.18.tar
 SRC_URI[md5sum] = "3dd7e1c7779a37c31a3eb60c0a97ea9f"
 SRC_URI[sha256sum] = "826f81a107f5592a2516766ed43beb47e10cc83edc9ea48090b02a36040776c0"
 
-S = "${WORKDIR}/Devel-Symdump-${PV}"
+S = "${UNPACKDIR}/Devel-Symdump-${PV}"
 
 inherit cpan allarch
 

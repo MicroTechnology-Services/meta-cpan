@@ -15,7 +15,7 @@ SRC_URI[md5sum] = "05c72a7567bd5f63cd84980c20d55416"
 SRC_URI[sha256sum] = "345536603883e2fcc599ef79ead66d97a8ec0c2e31e24f60a55298e8d498150a"
 RDEPENDS:${PN} += "dbi-perl"
 
-S = "${WORKDIR}/Dancer-Plugin-Database-Core-${PV}"
+S = "${UNPACKDIR}/Dancer-Plugin-Database-Core-${PV}"
 
 inherit cpan allarch
 

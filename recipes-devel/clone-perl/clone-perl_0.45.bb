@@ -19,7 +19,7 @@ SRC_URI[sha256sum] = "cbb6ee348afa95432e4878893b46752549e70dc68fe6d9e430d1d2e990
 RDEPENDS:${PN} += "b-cow-perl"
 DEPENDS += "b-cow-perl-native"
 
-S = "${WORKDIR}/Clone-${PV}"
+S = "${UNPACKDIR}/Clone-${PV}"
 
 inherit cpan
 

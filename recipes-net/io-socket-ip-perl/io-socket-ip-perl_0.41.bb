@@ -20,7 +20,7 @@ SRC_URI[md5sum] = "629947f8b86b08b7a636bd7ccc3d4925"
 SRC_URI[sha256sum] = "849a45a238f8392588b97722c850382c4e6d157cd08a822ddcb9073c73bf1446"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/IO-Socket-IP-${PV}"
+S = "${UNPACKDIR}/IO-Socket-IP-${PV}"
 
 inherit cpan_build allarch
 

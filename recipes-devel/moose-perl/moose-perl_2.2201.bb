@@ -37,7 +37,7 @@ DEPENDS += "test-cleannamespaces-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/Moose-${PV}"
+S = "${UNPACKDIR}/Moose-${PV}"
 
 inherit cpan
 

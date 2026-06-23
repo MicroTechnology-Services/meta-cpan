@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Text-Glob-0.11.tar.g
 SRC_URI[md5sum] = "d001559c504a2625dd117bd1558f07f7"
 SRC_URI[sha256sum] = "069ccd49d3f0a2dedb115f4bdc9fbac07a83592840953d1fcdfc39eb9d305287"
 
-S = "${WORKDIR}/Text-Glob-${PV}"
+S = "${UNPACKDIR}/Text-Glob-${PV}"
 
 inherit cpan allarch
 

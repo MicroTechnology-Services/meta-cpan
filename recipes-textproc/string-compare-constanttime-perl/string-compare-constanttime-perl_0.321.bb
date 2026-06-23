@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/F/FR/FRACTAL/String-Compare-Cons
 SRC_URI[md5sum] = "cf1801b75417107509134740c221e74c"
 SRC_URI[sha256sum] = "0b26ba2b121d8004425d4485d1d46f59001c83763aa26624dff6220d7735d7f7"
 
-S = "${WORKDIR}/String-Compare-ConstantTime-${PV}"
+S = "${UNPACKDIR}/String-Compare-ConstantTime-${PV}"
 
 inherit cpan
 

@@ -19,7 +19,7 @@ DEPENDS += "module-implementation-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-needs-perl-native"
 
-S = "${WORKDIR}/Class-Load-XS-${PV}"
+S = "${UNPACKDIR}/Class-Load-XS-${PV}"
 
 inherit cpan
 

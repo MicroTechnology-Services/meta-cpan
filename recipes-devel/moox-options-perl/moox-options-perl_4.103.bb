@@ -30,7 +30,7 @@ RECOMMENDS += "data-record-perl-native"
 RECOMMENDS += "json-maybexs-perl-native"
 RECOMMENDS += "regexp-common-perl-native"
 
-S = "${WORKDIR}/MooX-Options-${PV}"
+S = "${UNPACKDIR}/MooX-Options-${PV}"
 
 inherit cpan allarch
 

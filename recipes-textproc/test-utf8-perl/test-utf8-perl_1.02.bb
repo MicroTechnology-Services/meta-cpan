@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MARKF/Test-utf8-1.02.tar.gz
 SRC_URI[md5sum] = "71d187539c76ac1ed9a0242ff208796d"
 SRC_URI[sha256sum] = "df82f09c5940830b25a49f1c8162fa24d371e602880edef8d9a4d4bfd66b8bd7"
 
-S = "${WORKDIR}/Test-utf8-${PV}"
+S = "${UNPACKDIR}/Test-utf8-${PV}"
 
 inherit cpan allarch
 

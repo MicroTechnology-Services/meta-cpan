@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/X/XS/XSAWYERX/HTTP-XSHeaders-0.4
 SRC_URI[md5sum] = "6c62477d96cf4bd9ad608008e1f9180e"
 SRC_URI[sha256sum] = "61c83afb3943bfed2aadb38edb74ab4d8f9e768ad8411446380d9a8ab9d296db"
 
-S = "${WORKDIR}/HTTP-XSHeaders-${PV}"
+S = "${UNPACKDIR}/HTTP-XSHeaders-${PV}"
 
 inherit cpan
 

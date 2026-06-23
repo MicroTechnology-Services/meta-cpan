@@ -19,7 +19,7 @@ SRC_URI[md5sum] = "7cb432fcb7b8f761e9cc2fc12e76b80b"
 SRC_URI[sha256sum] = "0b04656f33b6c96da8eec4cffe5286150b4e4b5e2991d3883686b10910105ae2"
 RDEPENDS:${PN} += "data-dump-perl"
 
-S = "${WORKDIR}/Test-Trap-${PV}"
+S = "${UNPACKDIR}/Test-Trap-${PV}"
 
 inherit cpan allarch
 

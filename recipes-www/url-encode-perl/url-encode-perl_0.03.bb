@@ -18,7 +18,7 @@ SRC_URI = " https://cpan.metacpan.org/authors/id/C/CH/CHANSEN/URL-Encode-0.03.ta
 SRC_URI[md5sum] = "3501ba92bbd23bb230959a5c9a22ca12"
 SRC_URI[sha256sum] = "7295d7f07796b179131d9c0f230a6effa56d204de2f8dc72f2e09c61458c8ee6"
 
-S = "${WORKDIR}/URL-Encode-${PV}"
+S = "${UNPACKDIR}/URL-Encode-${PV}"
 
 inherit cpan allarch
 

@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "capture-tiny-perl"
 RRECOMMENDS:${PN} += "extutils-cbuilder-perl"
 RRECOMMENDS:${PN} += "file-slurper-perl"
 
-S = "${WORKDIR}/Config-AutoConf-${PV}"
+S = "${UNPACKDIR}/Config-AutoConf-${PV}"
 
 inherit cpan allarch
 

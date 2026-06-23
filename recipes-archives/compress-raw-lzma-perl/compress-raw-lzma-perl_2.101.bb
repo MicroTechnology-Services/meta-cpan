@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "bb267fd31981eda11f444038f8a0fca4b94a51ae61b2db71246abf6a4d
 
 DEPENDS += "xz"
 
-S = "${WORKDIR}/Compress-Raw-Lzma-${PV}"
+S = "${UNPACKDIR}/Compress-Raw-Lzma-${PV}"
 
 inherit cpan
 

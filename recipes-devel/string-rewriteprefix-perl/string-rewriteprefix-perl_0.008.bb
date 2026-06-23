@@ -16,7 +16,7 @@ SRC_URI[md5sum] = "af3e7375bed768ea7494ff53b80b81c0"
 SRC_URI[sha256sum] = "e45a31d6914e8f5fc722ef48d8819400dafc02105e0c61414aabbf01bce208eb"
 RDEPENDS:${PN} += "sub-exporter-perl"
 
-S = "${WORKDIR}/String-RewritePrefix-${PV}"
+S = "${UNPACKDIR}/String-RewritePrefix-${PV}"
 
 inherit cpan allarch
 

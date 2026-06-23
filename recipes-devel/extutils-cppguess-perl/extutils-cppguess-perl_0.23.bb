@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "f96c48984eb6d8efb7d933b34f361d0c8b38335e3e5382e9aeccc0aa51
 RDEPENDS:${PN} += "capture-tiny-perl"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/ExtUtils-CppGuess-${PV}"
+S = "${UNPACKDIR}/ExtUtils-CppGuess-${PV}"
 
 inherit cpan allarch
 

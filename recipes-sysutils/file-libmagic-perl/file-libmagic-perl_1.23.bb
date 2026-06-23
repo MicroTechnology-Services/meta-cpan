@@ -20,7 +20,7 @@ DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "file"
 
-S = "${WORKDIR}/File-LibMagic-${PV}"
+S = "${UNPACKDIR}/File-LibMagic-${PV}"
 
 inherit cpan
 

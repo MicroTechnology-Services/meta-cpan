@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "capture-tiny-perl"
 RDEPENDS:${PN} += "probe-perl-perl"
 DEPENDS += "test2-suite-perl-native"
 
-S = "${WORKDIR}/Test-Script-${PV}"
+S = "${UNPACKDIR}/Test-Script-${PV}"
 
 inherit cpan allarch
 

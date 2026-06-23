@@ -23,7 +23,7 @@ RDEPENDS:${PN} += "mozilla-ca-perl"
 RDEPENDS:${PN} += "net-http-perl"
 DEPENDS += "test-requiresinternet-perl-native"
 
-S = "${WORKDIR}/LWP-Protocol-https-${PV}"
+S = "${UNPACKDIR}/LWP-Protocol-https-${PV}"
 
 inherit cpan allarch
 

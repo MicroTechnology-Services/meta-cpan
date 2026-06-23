@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "fdb07e36b57121421fc1088496c3e09f"
 SRC_URI[sha256sum] = "7a05827e52ab5a1dde2ea5c712927b1e58c8d251664d966627adf9dd30ec0512"
 RDEPENDS:${PN} += "moo-perl"
 
-S = "${WORKDIR}/MooX-Locale-Passthrough-${PV}"
+S = "${UNPACKDIR}/MooX-Locale-Passthrough-${PV}"
 
 inherit cpan allarch
 

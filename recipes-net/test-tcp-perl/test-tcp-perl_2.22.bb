@@ -16,7 +16,7 @@ SRC_URI[md5sum] = "d539ad6b16856e863a6b6b54fa58df33"
 SRC_URI[sha256sum] = "3e53c3c06d6d0980a2bfeb915602b714e682ee211ae88c11748cf2cc714e7b57"
 RDEPENDS:${PN} += "test-sharedfork-perl"
 
-S = "${WORKDIR}/Test-TCP-${PV}"
+S = "${UNPACKDIR}/Test-TCP-${PV}"
 
 inherit cpan allarch
 

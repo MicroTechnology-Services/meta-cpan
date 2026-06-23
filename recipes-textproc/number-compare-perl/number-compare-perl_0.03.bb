@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/Number-Compare-0.03.
 SRC_URI[md5sum] = "ded4085a8fc96328742785574ca65208"
 SRC_URI[sha256sum] = "83293737e803b43112830443fb5208ec5208a2e6ea512ed54ef8e4dd2b880827"
 
-S = "${WORKDIR}/Number-Compare-${PV}"
+S = "${UNPACKDIR}/Number-Compare-${PV}"
 
 inherit cpan allarch
 

@@ -19,7 +19,7 @@ SRC_URI[sha256sum] = "2e4f254b8c336e297f007493bfa916688aa9bbf5d4fe534fe0a164dc20
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-identity-perl-native"
 
-S = "${WORKDIR}/String-Tagged-${PV}"
+S = "${UNPACKDIR}/String-Tagged-${PV}"
 
 inherit cpan_build allarch
 

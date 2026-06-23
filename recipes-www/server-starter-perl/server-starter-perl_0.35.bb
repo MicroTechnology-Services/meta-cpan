@@ -26,7 +26,7 @@ DEPENDS += "test-requires-perl-native"
 DEPENDS += "test-sharedfork-perl-native"
 DEPENDS += "test-tcp-perl-native"
 
-S = "${WORKDIR}/Server-Starter-${PV}"
+S = "${UNPACKDIR}/Server-Starter-${PV}"
 
 inherit cpan_build allarch
 

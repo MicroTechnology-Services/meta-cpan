@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZEBURO/Cookie-Baker-XS-0.
 SRC_URI[md5sum] = "f3aa23216855104abe6316d192c1cd50"
 SRC_URI[sha256sum] = "2270eb2a261da44df4934fc21bc46bdc3512ac657afc7b48d599b24c40d340ff"
 
-S = "${WORKDIR}/Cookie-Baker-XS-${PV}"
+S = "${UNPACKDIR}/Cookie-Baker-XS-${PV}"
 
 inherit cpan
 

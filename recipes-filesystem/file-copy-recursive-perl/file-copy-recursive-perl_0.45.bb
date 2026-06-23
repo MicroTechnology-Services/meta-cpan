@@ -22,7 +22,7 @@ DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-file-perl-native"
 DEPENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/File-Copy-Recursive-${PV}"
+S = "${UNPACKDIR}/File-Copy-Recursive-${PV}"
 
 inherit cpan allarch
 

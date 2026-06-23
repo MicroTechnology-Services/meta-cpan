@@ -22,7 +22,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/S/SH/SHAY/Class-Singleton-1.6.ta
 SRC_URI[md5sum] = "d9c84a7b8d1c490c38e88ed1f9faae47"
 SRC_URI[sha256sum] = "27ba13f0d9512929166bbd8c9ef95d90d630fc80f0c9a1b7458891055e9282a4"
 
-S = "${WORKDIR}/Class-Singleton-${PV}"
+S = "${UNPACKDIR}/Class-Singleton-${PV}"
 
 inherit cpan allarch
 

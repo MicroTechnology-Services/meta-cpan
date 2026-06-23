@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PJ/PJACKLAM/Math-BigInt-1.9998
 SRC_URI[md5sum] = "fd64ffafb1ec5cb7a0fa41b25a4bf894"
 SRC_URI[sha256sum] = "6508738b1bb0021e7fc766e376540057634a3a57b077d32cbc3f42a4599a7bee"
 
-S = "${WORKDIR}/Math-BigInt-${PV}"
+S = "${UNPACKDIR}/Math-BigInt-${PV}"
 
 inherit cpan allarch
 

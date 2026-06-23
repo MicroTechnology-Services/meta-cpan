@@ -25,7 +25,7 @@ RRECOMMENDS:${PN} += "perl-tidy-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/Eval-Closure-${PV}"
+S = "${UNPACKDIR}/Eval-Closure-${PV}"
 
 inherit cpan allarch
 

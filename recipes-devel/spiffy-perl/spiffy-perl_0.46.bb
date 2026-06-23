@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/I/IN/INGY/Spiffy-0.46.tar.gz"
 SRC_URI[md5sum] = "2ec7007c111a6bc2775bb7c57673a24b"
 SRC_URI[sha256sum] = "8f58620a8420255c49b6c43c5ff5802bd25e4f09240c51e5bf2b022833d41da3"
 
-S = "${WORKDIR}/Spiffy-${PV}"
+S = "${UNPACKDIR}/Spiffy-${PV}"
 
 inherit cpan allarch
 

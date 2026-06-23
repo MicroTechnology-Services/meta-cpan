@@ -25,7 +25,7 @@ DEPENDS += "cpan-meta-check-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/DateTime-${PV}"
+S = "${UNPACKDIR}/DateTime-${PV}"
 
 inherit cpan
 

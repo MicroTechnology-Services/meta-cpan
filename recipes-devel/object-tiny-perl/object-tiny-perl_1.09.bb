@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Object-Tiny-1.09.tar.
 SRC_URI[md5sum] = "80b27117b78276f468b390fe19eb5f4d"
 SRC_URI[sha256sum] = "7819ccdd18ee18b0e5ce660c084e4e04be3f2f34341302925581d21b53cac6bd"
 
-S = "${WORKDIR}/Object-Tiny-${PV}"
+S = "${UNPACKDIR}/Object-Tiny-${PV}"
 
 inherit cpan allarch
 

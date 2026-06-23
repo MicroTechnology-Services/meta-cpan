@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Try-Tiny-0.31.tar.gz"
 SRC_URI[md5sum] = "993a29ee8a03c9bd9c2f7c53d1082a03"
 SRC_URI[sha256sum] = "3300d31d8a4075b26d8f46ce864a1d913e0e8467ceeba6655d5d2b2e206c11be"
 
-S = "${WORKDIR}/Try-Tiny-${PV}"
+S = "${UNPACKDIR}/Try-Tiny-${PV}"
 
 inherit cpan allarch
 

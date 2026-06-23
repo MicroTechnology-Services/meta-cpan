@@ -21,7 +21,7 @@ DEPENDS += "test-deep-perl-native"
 DEPENDS += "test-nowarnings-perl-native"
 DEPENDS += "test-warn-perl-native"
 
-S = "${WORKDIR}/CGI-${PV}"
+S = "${UNPACKDIR}/CGI-${PV}"
 
 inherit cpan allarch
 

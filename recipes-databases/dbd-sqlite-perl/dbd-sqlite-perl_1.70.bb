@@ -22,7 +22,7 @@ DEPENDS += "sqlite3"
 RDEPENDS:${PN} += "dbi-perl sqlite3"
 RDEPENDS:${PN} += "perl-module-constant perl-module-locale perl-module-tie-hash"
 
-S = "${WORKDIR}/DBD-SQLite-${PV}"
+S = "${UNPACKDIR}/DBD-SQLite-${PV}"
 
 inherit cpan
 

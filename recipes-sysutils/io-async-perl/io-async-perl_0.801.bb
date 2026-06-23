@@ -27,7 +27,7 @@ DEPENDS += "test-identity-perl-native"
 DEPENDS += "test-metrics-any-perl-native"
 DEPENDS += "test-refcount-perl-native"
 
-S = "${WORKDIR}/IO-Async-${PV}"
+S = "${UNPACKDIR}/IO-Async-${PV}"
 
 inherit cpan_build allarch
 

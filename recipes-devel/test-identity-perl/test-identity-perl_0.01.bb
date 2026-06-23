@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Test-Identity-0.01.t
 SRC_URI[md5sum] = "ecef85c791cf5847e4c374983cf22a74"
 SRC_URI[sha256sum] = "2f0205009aed152668182aafa16357ab1f47b4cbc001e89871b67387ef8e5f23"
 
-S = "${WORKDIR}/Test-Identity-${PV}"
+S = "${UNPACKDIR}/Test-Identity-${PV}"
 
 inherit cpan
 

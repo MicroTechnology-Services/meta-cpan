@@ -24,7 +24,7 @@ DEPENDS += "extutils-config-perl-native"
 DEPENDS += "extutils-helpers-perl-native"
 DEPENDS += "extutils-installpaths-perl-native"
 
-S = "${WORKDIR}/Module-Build-Tiny-${PV}"
+S = "${UNPACKDIR}/Module-Build-Tiny-${PV}"
 
 inherit cpan_build allarch
 

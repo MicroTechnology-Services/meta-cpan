@@ -19,7 +19,7 @@ SRC_URI[sha256sum] = "d3676ba94641e03d6a30e951f09266c4c3ca3f5b58aa7b314a67f28e41
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/Package-Stash-XS-${PV}"
+S = "${UNPACKDIR}/Package-Stash-XS-${PV}"
 
 inherit cpan
 

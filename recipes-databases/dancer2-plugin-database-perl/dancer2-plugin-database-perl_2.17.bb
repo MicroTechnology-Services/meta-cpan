@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "dancer2-perl"
 DEPENDS += "http-message-perl-native"
 DEPENDS += "plack-perl-native"
 
-S = "${WORKDIR}/Dancer2-Plugin-Database-${PV}"
+S = "${UNPACKDIR}/Dancer2-Plugin-Database-${PV}"
 
 inherit cpan allarch
 

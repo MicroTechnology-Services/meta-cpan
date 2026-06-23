@@ -28,7 +28,7 @@ DEPENDS += "test-deep-perl-native"
 DEPENDS += "test-needs-perl-native"
 DEPENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/Test-CleanNamespaces-${PV}"
+S = "${UNPACKDIR}/Test-CleanNamespaces-${PV}"
 
 inherit cpan allarch
 

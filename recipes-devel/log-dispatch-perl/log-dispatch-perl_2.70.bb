@@ -25,7 +25,7 @@ DEPENDS += "ipc-run3-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-needs-perl-native"
 
-S = "${WORKDIR}/Log-Dispatch-${PV}"
+S = "${UNPACKDIR}/Log-Dispatch-${PV}"
 
 inherit cpan allarch
 

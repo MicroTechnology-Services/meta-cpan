@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RO/ROBIN/PadWalker-2.5.tar.gz"
 SRC_URI[md5sum] = "f3f1e06c0385aab80353176a414f02b2"
 SRC_URI[sha256sum] = "07b26abb841146af32072a8d68cb90176ffb176fd9268e6f2f7d106f817a0cd0"
 
-S = "${WORKDIR}/PadWalker-${PV}"
+S = "${UNPACKDIR}/PadWalker-${PV}"
 
 inherit cpan
 

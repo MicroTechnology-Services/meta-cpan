@@ -29,7 +29,7 @@ DEPENDS += "test-file-sharedir-perl-native"
 DEPENDS += "test2-plugin-nowarnings-perl-native"
 DEPENDS += "test2-suite-perl-native"
 
-S = "${WORKDIR}/DateTime-Locale-${PV}"
+S = "${UNPACKDIR}/DateTime-Locale-${PV}"
 
 inherit cpan allarch
 

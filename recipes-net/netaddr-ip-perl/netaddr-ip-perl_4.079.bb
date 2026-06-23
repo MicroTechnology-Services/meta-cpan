@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/M/MI/MIKER/NetAddr-IP-4.079.tar.
 SRC_URI[md5sum] = "990dfcbffae356835c536e8ab56a2880"
 SRC_URI[sha256sum] = "ec5a82dfb7028bcd28bb3d569f95d87dd4166cc19867f2184ed3a59f6d6ca0e7"
 
-S = "${WORKDIR}/NetAddr-IP-${PV}"
+S = "${UNPACKDIR}/NetAddr-IP-${PV}"
 
 # running configure in Lite/Util will fail ...
 EXTRA_CPANFLAGS = "-noxs"

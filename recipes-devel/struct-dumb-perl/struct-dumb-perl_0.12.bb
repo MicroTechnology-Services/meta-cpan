@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "52ce70c433e6962ad1c20e9e297a5391e0b74a44520fbce2e482f544e3
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Struct-Dumb-${PV}"
+S = "${UNPACKDIR}/Struct-Dumb-${PV}"
 
 inherit cpan_build allarch
 

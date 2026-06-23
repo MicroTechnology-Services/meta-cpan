@@ -16,7 +16,7 @@ SRC_URI[md5sum] = "c4249eeaebc36ff8e3d7ce173a8d15f7"
 SRC_URI[sha256sum] = "74e637d6f682f3025fbdf825f51c5be892a8458b5c6ae08c44a73cd8b658258a"
 DEPENDS += "timedate-perl-native"
 
-S = "${WORKDIR}/HTTP-XSCookies-${PV}"
+S = "${UNPACKDIR}/HTTP-XSCookies-${PV}"
 
 inherit cpan
 

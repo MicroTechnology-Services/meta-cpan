@@ -22,7 +22,7 @@ SRC_URI[sha256sum] = "0457c20a4956473d157c4faaff8814154bc93f6e2b543c2812a19ff8e3
 RRECOMMENDS:${PN} += "devel-mat-perl"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/Test-Refcount-${PV}"
+S = "${UNPACKDIR}/Test-Refcount-${PV}"
 
 inherit cpan_build allarch
 

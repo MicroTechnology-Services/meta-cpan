@@ -15,7 +15,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/D/DS/DSLEWART/Math-Libm-1.00.tar.
 SRC_URI[md5sum] = "26a4ce8fe507d04c7d40b9eadac428ae"
 SRC_URI[sha256sum] = "bfd309f283ac8cb9bf00af8c7c3a10bf25abfd642861c2022efaff0a4a52c276"
 
-S = "${WORKDIR}/Math-Libm-${PV}"
+S = "${UNPACKDIR}/Math-Libm-${PV}"
 
 inherit cpan
 

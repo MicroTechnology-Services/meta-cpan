@@ -24,7 +24,7 @@ RDEPENDS:${PN} += "test-differences-perl"
 RDEPENDS:${PN} += "test-exception-perl"
 RDEPENDS:${PN} += "test-warn-perl"
 
-S = "${WORKDIR}/Test-Most-${PV}"
+S = "${UNPACKDIR}/Test-Most-${PV}"
 
 inherit cpan allarch
 

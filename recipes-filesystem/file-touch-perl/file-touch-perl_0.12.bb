@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/N/NE/NEILB/File-Touch-0.12.tar.g
 SRC_URI[md5sum] = "84215f5010adcbec0065e1c718d8875f"
 SRC_URI[sha256sum] = "2a04dc424df48e98c54556c6045cab026a49e3737aa94a21cf497761b0f2e59c"
 
-S = "${WORKDIR}/File-Touch-${PV}"
+S = "${UNPACKDIR}/File-Touch-${PV}"
 
 inherit cpan allarch
 

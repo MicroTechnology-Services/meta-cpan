@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOBYINK/Type-Tiny-XS-0.022.
 SRC_URI[md5sum] = "90cf4f630e6526da9206e9ad12602022"
 SRC_URI[sha256sum] = "bcc34a31f7dc1d30cc803889b5c8f90e4773b73b5becbdb3860f5abe7e22ff00"
 
-S = "${WORKDIR}/Type-Tiny-XS-${PV}"
+S = "${UNPACKDIR}/Type-Tiny-XS-${PV}"
 
 inherit cpan
 

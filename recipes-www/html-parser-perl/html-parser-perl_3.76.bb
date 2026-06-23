@@ -21,7 +21,7 @@ RDEPENDS:${PN} += "html-tagset-perl"
 RDEPENDS:${PN} += "http-message-perl"
 RDEPENDS:${PN} += "uri-perl"
 
-S = "${WORKDIR}/HTML-Parser-${PV}"
+S = "${UNPACKDIR}/HTML-Parser-${PV}"
 
 inherit cpan
 

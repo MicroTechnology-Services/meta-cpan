@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "1ae686dbe45dbdcf0c7cccf8a0cd81a579a019601f8e35533db93dcdd8
 RDEPENDS:${PN} += "compress-raw-lzma-perl"
 RDEPENDS:${PN} += "io-compress-perl"
 
-S = "${WORKDIR}/IO-Compress-Lzma-${PV}"
+S = "${UNPACKDIR}/IO-Compress-Lzma-${PV}"
 
 inherit cpan allarch
 

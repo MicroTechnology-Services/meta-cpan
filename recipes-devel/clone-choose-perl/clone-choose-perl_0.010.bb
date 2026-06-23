@@ -19,7 +19,7 @@ RRECOMMENDS:${PN} += "clone-perl"
 RRECOMMENDS:${PN} += "module-runtime-perl"
 DEPENDS += "test-without-module-perl-native"
 
-S = "${WORKDIR}/Clone-Choose-${PV}"
+S = "${UNPACKDIR}/Clone-Choose-${PV}"
 
 inherit cpan allarch
 

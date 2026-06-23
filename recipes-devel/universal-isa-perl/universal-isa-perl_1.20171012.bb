@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/UNIVERSAL-isa-1.20171
 SRC_URI[md5sum] = "668a981d2716b231937236c122124282"
 SRC_URI[sha256sum] = "d16956036cb01c819dec7d294f6ef891be0bb64876989601354b293164da7f2b"
 
-S = "${WORKDIR}/UNIVERSAL-isa-${PV}"
+S = "${UNPACKDIR}/UNIVERSAL-isa-${PV}"
 
 inherit cpan allarch
 

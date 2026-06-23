@@ -22,7 +22,7 @@ SRC_URI = "http://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Test-MockRandom-1.0
 SRC_URI[md5sum] = "5ea7e2ec70776129993721f7632d04da"
 SRC_URI[sha256sum] = "2614930d84fc5deac39afbc1ee86ccd39b221507f27d4ee493ca26e5c921cce0"
 
-S = "${WORKDIR}/Test-MockRandom-${PV}"
+S = "${UNPACKDIR}/Test-MockRandom-${PV}"
 
 inherit cpan allarch
 

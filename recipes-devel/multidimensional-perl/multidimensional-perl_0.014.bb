@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "b-hooks-op-check-perl"
 DEPENDS += "b-hooks-op-check-perl-native"
 DEPENDS += "extutils-depends-perl-native"
 
-S = "${WORKDIR}/multidimensional-${PV}"
+S = "${UNPACKDIR}/multidimensional-${PV}"
 
 inherit cpan
 

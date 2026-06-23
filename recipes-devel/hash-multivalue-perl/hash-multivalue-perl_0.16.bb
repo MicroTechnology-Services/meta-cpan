@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AR/ARISTOTLE/Hash-MultiValue-0
 SRC_URI[md5sum] = "508015312eb08cd2bcea987c4efbb93d"
 SRC_URI[sha256sum] = "66181df7aa68e2786faf6895c88b18b95c800a8e4e6fb4c07fd176410a3c73f4"
 
-S = "${WORKDIR}/Hash-MultiValue-${PV}"
+S = "${UNPACKDIR}/Hash-MultiValue-${PV}"
 
 inherit cpan allarch
 

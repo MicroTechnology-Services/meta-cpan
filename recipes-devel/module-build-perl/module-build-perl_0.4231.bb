@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-0.4231.t
 SRC_URI[md5sum] = "066b193e461d7dfe1eca17a139353001"
 SRC_URI[sha256sum] = "7e0f4c692c1740c1ac84ea14d7ea3d8bc798b2fb26c09877229e04f430b2b717"
 
-S = "${WORKDIR}/Module-Build-${PV}"
+S = "${UNPACKDIR}/Module-Build-${PV}"
 
 inherit cpan_build allarch
 

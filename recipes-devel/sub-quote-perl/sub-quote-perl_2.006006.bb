@@ -17,7 +17,7 @@ SRC_URI[sha256sum] = "6e4e2af42388fa6d2609e0e82417de7cc6be47223f576592c656c73c75
 RRECOMMENDS:${PN} += "sub-name-perl"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Sub-Quote-${PV}"
+S = "${UNPACKDIR}/Sub-Quote-${PV}"
 
 inherit cpan allarch
 

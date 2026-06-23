@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "ab5807f71018a842de6b7a4826d6c1f24b8d5b09fcce5005a3309cf6ea
 DEPENDS += "test-needs-perl-native"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Class-Method-Modifiers-${PV}"
+S = "${UNPACKDIR}/Class-Method-Modifiers-${PV}"
 
 inherit cpan allarch
 

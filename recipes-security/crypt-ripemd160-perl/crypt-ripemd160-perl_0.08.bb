@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TODDR/Crypt-RIPEMD160-0.08.
 SRC_URI[md5sum] = "0050e60658e2c0aa9710b5b0dd255ecb"
 SRC_URI[sha256sum] = "34d1c87607f6c9defab3741b76d31bccfbb6d4d201af80e0f6083c378130b232"
 
-S = "${WORKDIR}/Crypt-RIPEMD160-${PV}"
+S = "${UNPACKDIR}/Crypt-RIPEMD160-${PV}"
 
 inherit cpan
 

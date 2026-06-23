@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "18f644fdd4a1fef93ef3f7f67df8e95b593d811899f34bcbbaba4d7172
 RDEPENDS:${PN} += "capture-tiny-perl"
 RDEPENDS:${PN} += "text-diff-perl"
 
-S = "${WORKDIR}/Test-Differences-${PV}"
+S = "${UNPACKDIR}/Test-Differences-${PV}"
 
 inherit cpan
 

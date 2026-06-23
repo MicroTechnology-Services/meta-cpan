@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "51b1aef30c5c4009f640267a08589212e87dcd101800f0d20f9c635c9f
 RRECOMMENDS:${PN} += "scope-upper-perl"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Return-MultiLevel-${PV}"
+S = "${UNPACKDIR}/Return-MultiLevel-${PV}"
 
 inherit cpan allarch
 

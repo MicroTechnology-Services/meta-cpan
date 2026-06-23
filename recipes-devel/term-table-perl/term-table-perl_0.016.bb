@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "8fb4fbb8e96a2d6c514949eb8cfd7e66319bcb1cbf7cea0ab19af887a7
 RDEPENDS:${PN} += "importer-perl"
 RRECOMMENDS:${PN} += "unicode-linebreak-perl"
 
-S = "${WORKDIR}/Term-Table-${PV}"
+S = "${UNPACKDIR}/Term-Table-${PV}"
 
 inherit cpan allarch
 

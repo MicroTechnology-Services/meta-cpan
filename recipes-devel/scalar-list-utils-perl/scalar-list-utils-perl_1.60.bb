@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.
 SRC_URI[md5sum] = "2e9e72dab0a3171be207117b70bb9e58"
 SRC_URI[sha256sum] = "c685bad8021f008f321288b7c3182ec724ab198a77610e877c86f3fad4b85f07"
 
-S = "${WORKDIR}/Scalar-List-Utils-${PV}"
+S = "${UNPACKDIR}/Scalar-List-Utils-${PV}"
 
 inherit cpan
 

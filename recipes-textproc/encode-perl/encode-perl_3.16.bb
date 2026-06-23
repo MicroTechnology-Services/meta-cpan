@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DANKOGAI/Encode-3.16.tar.gz
 SRC_URI[md5sum] = "113b5ffa2330c5f5848b64994f70781c"
 SRC_URI[sha256sum] = "e5e91d98a97de70dccecc2a25d049a0b5f5f12228c618680020d73043355294c"
 
-S = "${WORKDIR}/Encode-${PV}"
+S = "${UNPACKDIR}/Encode-${PV}"
 
 inherit cpan update-alternatives
 

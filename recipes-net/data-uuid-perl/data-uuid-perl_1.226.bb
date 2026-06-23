@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Data-UUID-1.226.tar.gz
 SRC_URI[md5sum] = "13468e0fb65a0b5ce27b8628cb2f0109"
 SRC_URI[sha256sum] = "093d57ffa0d411a94bafafae495697db26f5c9d0277198fe3f7cf2be22996453"
 
-S = "${WORKDIR}/Data-UUID-${PV}"
+S = "${UNPACKDIR}/Data-UUID-${PV}"
 
 inherit cpan
 

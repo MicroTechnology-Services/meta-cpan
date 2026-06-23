@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "lwp-mediatypes-perl"
 RDEPENDS:${PN} += "uri-perl"
 DEPENDS += "try-tiny-perl-native"
 
-S = "${WORKDIR}/HTTP-Message-${PV}"
+S = "${UNPACKDIR}/HTTP-Message-${PV}"
 
 inherit cpan allarch
 

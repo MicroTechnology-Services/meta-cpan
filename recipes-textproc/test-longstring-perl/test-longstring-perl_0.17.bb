@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Test-LongString-0.1
 SRC_URI[md5sum] = "8baab770f61ebd5647a9dd3679f42fbd"
 SRC_URI[sha256sum] = "abc4349eaf04d1bec1e464166a3018591ea846d8f3c5c9c8af4ac4905d3e974f"
 
-S = "${WORKDIR}/Test-LongString-${PV}"
+S = "${UNPACKDIR}/Test-LongString-${PV}"
 
 inherit cpan allarch
 

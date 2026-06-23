@@ -19,7 +19,7 @@ RRECOMMENDS:${PN} += "bareword-filehandles-perl"
 RRECOMMENDS:${PN} += "indirect-perl"
 RRECOMMENDS:${PN} += "multidimensional-perl"
 
-S = "${WORKDIR}/strictures-${PV}"
+S = "${UNPACKDIR}/strictures-${PV}"
 
 inherit cpan allarch
 

@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "98d8c97259c4fb14e80593a42dc661a5"
 SRC_URI[sha256sum] = "c0463b04eb49173dec94821e1066ac1517ba1bab71c7c32d3a3d93f736618d43"
 RDEPENDS:${PN} += "sub-exporter-perl"
 
-S = "${WORKDIR}/Number-Tolerant-${PV}"
+S = "${UNPACKDIR}/Number-Tolerant-${PV}"
 
 inherit cpan allarch
 

@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/T/TI/TINITA/YAML-LibYAML-0.83.ta
 SRC_URI[md5sum] = "5c019115eae8079e74a407c74c4564f0"
 SRC_URI[sha256sum] = "b47175b4ff397ad75a4f7781d3d83c08637da6ff0bae326af3b389d854bec490"
 
-S = "${WORKDIR}/YAML-LibYAML-${PV}"
+S = "${UNPACKDIR}/YAML-LibYAML-${PV}"
 
 inherit cpan
 

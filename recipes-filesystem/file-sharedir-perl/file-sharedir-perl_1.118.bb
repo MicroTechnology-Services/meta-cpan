@@ -23,7 +23,7 @@ RRECOMMENDS:${PN} += "params-util-perl"
 DEPENDS += "file-sharedir-install-perl-native"
 RECOMMENDS += "inc-latest-perl-native"
 
-S = "${WORKDIR}/File-ShareDir-${PV}"
+S = "${UNPACKDIR}/File-ShareDir-${PV}"
 
 inherit cpan allarch
 

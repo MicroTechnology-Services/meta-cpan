@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "42187231c4ac6897a0e07a5782eb6718"
 SRC_URI[sha256sum] = "4bbaffbdfb68505ef3326dc748e63ebe0db31157b78ca8dfcb8c3cd1d1313262"
 RRECOMMENDS:${PN} += "encode-perl"
 
-S = "${WORKDIR}/Text-CSV_XS-${PV}"
+S = "${UNPACKDIR}/Text-CSV_XS-${PV}"
 
 inherit cpan
 

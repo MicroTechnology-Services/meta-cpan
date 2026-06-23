@@ -19,7 +19,7 @@ SRC_URI[sha256sum] = "9a48433f86e08ce18e03526e2982de52162eb909d19735460f07eefcaf
 RDEPENDS:${PN} += "file-find-rule-perl"
 RDEPENDS:${PN} += "params-util-perl"
 
-S = "${WORKDIR}/File-Find-Rule-Perl-${PV}"
+S = "${UNPACKDIR}/File-Find-Rule-Perl-${PV}"
 
 inherit cpan allarch
 

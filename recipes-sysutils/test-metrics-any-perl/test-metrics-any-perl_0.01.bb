@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "2506c88d4eb21b274b1085f806c918dcc97fff69e16d1249e6e19d9436
 RDEPENDS:${PN} += "metrics-any-perl"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/Test-Metrics-Any-${PV}"
+S = "${UNPACKDIR}/Test-Metrics-Any-${PV}"
 
 inherit cpan_build allarch
 

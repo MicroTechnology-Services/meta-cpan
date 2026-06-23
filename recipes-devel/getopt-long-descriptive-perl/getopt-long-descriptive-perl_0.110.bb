@@ -22,7 +22,7 @@ DEPENDS += "cpan-meta-check-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/Getopt-Long-Descriptive-${PV}"
+S = "${UNPACKDIR}/Getopt-Long-Descriptive-${PV}"
 
 inherit cpan allarch
 

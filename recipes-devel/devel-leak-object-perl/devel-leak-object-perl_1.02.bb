@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Devel-Leak-Object-1.0
 SRC_URI[md5sum] = "69c53688ebf58a708c806147bb8af318"
 SRC_URI[sha256sum] = "4d5226800b72fb64351767a524e811205f5c66623979b2bd7199abd7fac505ee"
 
-S = "${WORKDIR}/Devel-Leak-Object-${PV}"
+S = "${UNPACKDIR}/Devel-Leak-Object-${PV}"
 
 inherit cpan allarch
 

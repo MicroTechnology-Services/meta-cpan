@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "mro-compat-perl"
 RDEPENDS:${PN} += "package-stash-perl"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Devel-OverloadInfo-${PV}"
+S = "${UNPACKDIR}/Devel-OverloadInfo-${PV}"
 
 inherit cpan allarch
 

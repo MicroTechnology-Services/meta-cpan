@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DC/DCANTRELL/Devel-Hide-0.0015
 SRC_URI[md5sum] = "7f11107163e259754c3f7dc7c2cf6d91"
 SRC_URI[sha256sum] = "fc8dbeb7f7d75a78ed496b1e0e05cfc99c68acab3a2e92cff155ca5f0fa5df58"
 
-S = "${WORKDIR}/Devel-Hide-${PV}"
+S = "${UNPACKDIR}/Devel-Hide-${PV}"
 
 inherit cpan allarch
 

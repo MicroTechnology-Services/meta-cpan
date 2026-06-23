@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "list-utilsby-perl"
 RDEPENDS:${PN} += "module-pluggable-perl"
 DEPENDS += "test-number-delta-perl-native"
 
-S = "${WORKDIR}/Convert-Color-${PV}"
+S = "${UNPACKDIR}/Convert-Color-${PV}"
 
 inherit cpan allarch
 

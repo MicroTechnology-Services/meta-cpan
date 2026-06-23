@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/S/SA/SATOH/Test-Time-0.08.tar.gz
 SRC_URI[md5sum] = "4b4d3696b84ce797301e5c673b923a53"
 SRC_URI[sha256sum] = "b8bc3b074bb2247e8588399c1e55d071f049cf6ce1c8b4192c38cf3c24559548"
 
-S = "${WORKDIR}/Test-Time-${PV}"
+S = "${UNPACKDIR}/Test-Time-${PV}"
 
 inherit cpan allarch
 

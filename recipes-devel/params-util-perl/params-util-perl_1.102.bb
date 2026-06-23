@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "499bb1b482db24fda277a51525596ad092c2bd51dd508fa8fec2e9f849
 DEPENDS += "test-leaktrace-perl-native"
 RECOMMENDS += "config-autoconf-perl-native"
 
-S = "${WORKDIR}/Params-Util-${PV}"
+S = "${UNPACKDIR}/Params-Util-${PV}"
 
 inherit cpan
 

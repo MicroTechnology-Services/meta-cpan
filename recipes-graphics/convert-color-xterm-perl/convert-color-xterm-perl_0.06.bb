@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "ae1b56388594bbccef6cffe708007f8bcccd4569e31a2c33745216a635
 RDEPENDS:${PN} += "convert-color-perl"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/Convert-Color-XTerm-${PV}"
+S = "${UNPACKDIR}/Convert-Color-XTerm-${PV}"
 
 inherit cpan_build allarch
 

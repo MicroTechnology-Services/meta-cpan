@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "2ef33c2f80104c6187a950fb7d3075fe"
 SRC_URI[sha256sum] = "cb99150f9ffa51dbc3be5ee98d8e91c98cdfeae22eb88e718f2cf367bf270d17"
 RDEPENDS:${PN} += "common-sense-perl"
 
-S = "${WORKDIR}/Linux-Inotify2-${PV}"
+S = "${UNPACKDIR}/Linux-Inotify2-${PV}"
 
 inherit cpan
 

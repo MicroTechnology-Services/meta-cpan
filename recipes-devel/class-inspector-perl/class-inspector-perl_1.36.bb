@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Class-Inspector-1.
 SRC_URI[md5sum] = "084c3aeec023639d21ecbaf7d4460b21"
 SRC_URI[sha256sum] = "cc295d23a472687c24489d58226ead23b9fdc2588e522f0b5f0747741700694e"
 
-S = "${WORKDIR}/Class-Inspector-${PV}"
+S = "${UNPACKDIR}/Class-Inspector-${PV}"
 
 inherit cpan allarch
 

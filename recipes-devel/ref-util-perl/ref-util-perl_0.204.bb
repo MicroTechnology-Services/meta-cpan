@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AR/ARC/Ref-Util-0.204.tar.gz"
 SRC_URI[md5sum] = "add072ed1e481dc43ad6bb8bbe36ab99"
 SRC_URI[sha256sum] = "415fa73dbacf44f3d5d79c14888cc994562720ab468e6f71f91cd1f769f105e1"
 
-S = "${WORKDIR}/Ref-Util-${PV}"
+S = "${UNPACKDIR}/Ref-Util-${PV}"
 
 inherit cpan allarch
 

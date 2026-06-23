@@ -23,7 +23,7 @@ DEPENDS += "cpan-meta-check-perl-native"
 DEPENDS += "test-needs-perl-native"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Package-Stash-${PV}"
+S = "${UNPACKDIR}/Package-Stash-${PV}"
 
 inherit cpan allarch
 

@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/B-COW-0.004.tar.gz"
 SRC_URI[md5sum] = "a1ef8623a06ce9f6358674d7e604de1e"
 SRC_URI[sha256sum] = "fcafb775ed84a45bc2c06c5ffd71342cb3c06fb0bdcd5c1b51b0c12f8b585f51"
 
-S = "${WORKDIR}/B-COW-${PV}"
+S = "${UNPACKDIR}/B-COW-${PV}"
 
 inherit cpan
 

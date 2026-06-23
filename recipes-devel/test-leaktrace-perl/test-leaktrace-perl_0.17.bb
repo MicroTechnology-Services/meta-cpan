@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/L/LE/LEEJO/Test-LeakTrace-0.17.t
 SRC_URI[md5sum] = "afdb2cc6be0807cb635fb601a004d522"
 SRC_URI[sha256sum] = "777d64d2938f5ea586300eef97ef03eacb43d4c1853c9c3b1091eb3311467970"
 
-S = "${WORKDIR}/Test-LeakTrace-${PV}"
+S = "${UNPACKDIR}/Test-LeakTrace-${PV}"
 
 inherit cpan
 

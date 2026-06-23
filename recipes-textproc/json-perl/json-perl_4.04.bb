@@ -23,7 +23,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/JSON-4.04.tar.gz"
 SRC_URI[md5sum] = "4623b908d3dd5a190180def02a4b94b3"
 SRC_URI[sha256sum] = "66b6c6ea1ed6d609b0b70df29fdcbd281f3fe13c661e5b2847b4e4e8c12b5380"
 
-S = "${WORKDIR}/JSON-${PV}"
+S = "${UNPACKDIR}/JSON-${PV}"
 
 inherit cpan allarch
 

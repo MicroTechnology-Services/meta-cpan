@@ -25,7 +25,7 @@ DEPENDS += "libarchive"
 DEPENDS += "capture-tiny-perl-native"
 DEPENDS += "config-autoconf-perl-native"
 
-S = "${WORKDIR}/Archive-Peek-Libarchive-${PV}"
+S = "${UNPACKDIR}/Archive-Peek-Libarchive-${PV}"
 
 inherit cpan pkgconfig
 

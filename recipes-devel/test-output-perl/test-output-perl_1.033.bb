@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "454bac1d7423e793c820b7d70987fbc6"
 SRC_URI[sha256sum] = "f6a8482740b075fad22aaf4d987d38ef927c6d2b452d4ae0d0bd8f779830556e"
 RDEPENDS:${PN} += "capture-tiny-perl"
 
-S = "${WORKDIR}/Test-Output-${PV}"
+S = "${UNPACKDIR}/Test-Output-${PV}"
 
 inherit cpan allarch
 

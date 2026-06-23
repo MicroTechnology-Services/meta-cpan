@@ -20,7 +20,7 @@ DEPENDS += "test-deep-perl-native"
 DEPENDS += "test-requires-perl-native"
 DEPENDS += "uri-perl-native"
 
-S = "${WORKDIR}/HTTP-CookieJar-${PV}"
+S = "${UNPACKDIR}/HTTP-CookieJar-${PV}"
 
 inherit cpan allarch
 

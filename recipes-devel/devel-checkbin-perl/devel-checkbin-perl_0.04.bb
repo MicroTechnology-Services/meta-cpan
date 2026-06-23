@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/T/TO/TOKUHIROM/Devel-CheckBin-0.
 SRC_URI[md5sum] = "042b68e48d9b53de7d3ef4c726d57cb2"
 SRC_URI[sha256sum] = "157f3db59c29ed1d49133a469cee772c885ad4ee64e8692a91b3ebfdbe2fe3e4"
 
-S = "${WORKDIR}/Devel-CheckBin-${PV}"
+S = "${UNPACKDIR}/Devel-CheckBin-${PV}"
 
 inherit cpan allarch
 

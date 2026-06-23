@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DO/DOY/Stream-Buffered-0.03.ta
 SRC_URI[md5sum] = "b030fecaa784cd573289ae797c7aeae9"
 SRC_URI[sha256sum] = "9b2d4390b5de6b0cf4558e4ad04317a73c5e13dd19af29149c4e47c37fb2423b"
 
-S = "${WORKDIR}/Stream-Buffered-${PV}"
+S = "${UNPACKDIR}/Stream-Buffered-${PV}"
 
 inherit cpan allarch
 

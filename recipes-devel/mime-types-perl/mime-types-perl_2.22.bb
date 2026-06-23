@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/M/MA/MARKOV/MIME-Types-2.22.tar.
 SRC_URI[md5sum] = "be84dd3231e94baf34ea7943c3f5cc25"
 SRC_URI[sha256sum] = "c2545eb30b094e942860ff8444f0f6cb54641caa8f7d386aaa2d925da4b02400"
 
-S = "${WORKDIR}/MIME-Types-${PV}"
+S = "${UNPACKDIR}/MIME-Types-${PV}"
 
 inherit cpan allarch
 

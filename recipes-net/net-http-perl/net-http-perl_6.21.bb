@@ -20,7 +20,7 @@ SRC_URI[sha256sum] = "375aa35b76be99f06464089174d66ac76f78ce83a5c92a907bbfab18b0
 RDEPENDS:${PN} += "uri-perl"
 RRECOMMENDS:${PN} += "io-socket-ssl-perl"
 
-S = "${WORKDIR}/Net-HTTP-${PV}"
+S = "${UNPACKDIR}/Net-HTTP-${PV}"
 
 inherit cpan allarch
 

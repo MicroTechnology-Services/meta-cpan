@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "4e5a3f6737efd59b4e395af2f95d02e564fc57aa723e32a13eb2a1788d
 RDEPENDS:${PN} += "exporter-tiny-perl"
 RRECOMMENDS:${PN} += "hash-fieldhash-perl"
 
-S = "${WORKDIR}/Type-Tie-${PV}"
+S = "${UNPACKDIR}/Type-Tie-${PV}"
 
 inherit cpan allarch
 

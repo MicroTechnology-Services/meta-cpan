@@ -27,7 +27,7 @@ RDEPENDS:${PN} += "sub-exporter-perl"
 RDEPENDS:${PN} += "sub-install-perl"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/App-Cmd-${PV}"
+S = "${UNPACKDIR}/App-Cmd-${PV}"
 
 inherit cpan allarch
 

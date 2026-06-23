@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Devel-GlobalDestructi
 SRC_URI[md5sum] = "7edd0f6995af618071f84818ddb900c7"
 SRC_URI[sha256sum] = "59af05cb256f7ec297ad6bfa8ebee2f292f01b518926de3204e2341ed2dbfc91"
 
-S = "${WORKDIR}/Devel-GlobalDestruction-XS-${PV}"
+S = "${UNPACKDIR}/Devel-GlobalDestruction-XS-${PV}"
 
 inherit cpan
 

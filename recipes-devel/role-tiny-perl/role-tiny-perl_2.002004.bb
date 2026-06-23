@@ -16,7 +16,7 @@ SRC_URI[md5sum] = "9ee45591befa3d0b1094ac75d282b6ba"
 SRC_URI[sha256sum] = "d7bdee9e138a4f83aa52d0a981625644bda87ff16642dfa845dcb44d9a242b45"
 RRECOMMENDS:${PN} += "class-method-modifiers-perl"
 
-S = "${WORKDIR}/Role-Tiny-${PV}"
+S = "${UNPACKDIR}/Role-Tiny-${PV}"
 
 inherit cpan allarch
 

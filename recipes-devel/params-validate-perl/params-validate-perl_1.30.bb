@@ -21,7 +21,7 @@ DEPENDS += "module-build-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/Params-Validate-${PV}"
+S = "${UNPACKDIR}/Params-Validate-${PV}"
 
 inherit cpan_build allarch
 

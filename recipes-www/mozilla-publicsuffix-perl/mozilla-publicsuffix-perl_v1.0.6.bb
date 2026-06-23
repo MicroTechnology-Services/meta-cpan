@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "uri-perl"
 DEPENDS += "module-build-perl-native"
 DEPENDS += "uri-perl-native"
 
-S = "${WORKDIR}/Mozilla-PublicSuffix-${PV}"
+S = "${UNPACKDIR}/Mozilla-PublicSuffix-${PV}"
 
 inherit cpan_build allarch
 

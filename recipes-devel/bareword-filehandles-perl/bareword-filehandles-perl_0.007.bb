@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "b-hooks-op-check-perl"
 DEPENDS += "b-hooks-op-check-perl-native"
 DEPENDS += "extutils-depends-perl-native"
 
-S = "${WORKDIR}/bareword-filehandles-${PV}"
+S = "${UNPACKDIR}/bareword-filehandles-${PV}"
 
 inherit cpan
 

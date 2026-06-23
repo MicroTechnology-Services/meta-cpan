@@ -21,7 +21,7 @@ RRECOMMENDS:${PN} += "strictures-perl"
 DEPENDS += "moo-perl-native"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/MooX-Types-MooseLike-${PV}"
+S = "${UNPACKDIR}/MooX-Types-MooseLike-${PV}"
 
 inherit cpan allarch
 

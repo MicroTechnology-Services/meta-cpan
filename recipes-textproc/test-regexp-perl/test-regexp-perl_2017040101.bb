@@ -20,7 +20,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AB/ABIGAIL/Test-Regexp-2017040
 SRC_URI[md5sum] = "b5ced2b3e3ba666a153da163b0173325"
 SRC_URI[sha256sum] = "35cb41df5c5017835b89b853d5a44e25e6da973b450e1edca51bba70e7041e54"
 
-S = "${WORKDIR}/Test-Regexp-${PV}"
+S = "${UNPACKDIR}/Test-Regexp-${PV}"
 
 inherit cpan allarch
 

@@ -22,7 +22,7 @@ DEPENDS += "test-differences-perl-native"
 DEPENDS += "test-longstring-perl-native"
 DEPENDS += "test-warn-perl-native"
 
-S = "${WORKDIR}/Sereal-Decoder-${PV}"
+S = "${UNPACKDIR}/Sereal-Decoder-${PV}"
 PARALLEL_MAKE = " "
 
 inherit cpan

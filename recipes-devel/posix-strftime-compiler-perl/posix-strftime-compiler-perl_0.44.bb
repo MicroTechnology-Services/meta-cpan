@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "3a5ae7d56a5917410c1b661e01ed1a68"
 SRC_URI[sha256sum] = "dfd3c97398dcfe51c8236b85e3dc28035667b76531f7aa0a6535f3aa5405b35a"
 DEPENDS += "module-build-tiny-perl-native"
 
-S = "${WORKDIR}/POSIX-strftime-Compiler-${PV}"
+S = "${UNPACKDIR}/POSIX-strftime-Compiler-${PV}"
 
 inherit cpan_build allarch
 

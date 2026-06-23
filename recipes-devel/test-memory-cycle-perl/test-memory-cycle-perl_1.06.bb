@@ -16,7 +16,7 @@ SRC_URI[sha256sum] = "9d53ddfdc964cd8454cb0da4c695b6a3ae47b45839291c34cb9d8d1cfa
 RDEPENDS:${PN} += "devel-cycle-perl"
 RDEPENDS:${PN} += "padwalker-perl"
 
-S = "${WORKDIR}/Test-Memory-Cycle-${PV}"
+S = "${UNPACKDIR}/Test-Memory-Cycle-${PV}"
 
 inherit cpan allarch
 

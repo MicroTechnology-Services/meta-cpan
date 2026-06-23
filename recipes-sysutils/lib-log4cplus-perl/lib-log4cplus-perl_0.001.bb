@@ -18,7 +18,7 @@ DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "log4cplus"
 RECOMMENDS += "test-leaktrace-perl-native"
 
-S = "${WORKDIR}/Lib-Log4cplus-${PV}"
+S = "${UNPACKDIR}/Lib-Log4cplus-${PV}"
 
 inherit cpan pkgconfig
 

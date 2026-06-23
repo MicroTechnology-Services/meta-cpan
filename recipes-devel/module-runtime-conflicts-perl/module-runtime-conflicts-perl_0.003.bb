@@ -19,7 +19,7 @@ SRC_URI[sha256sum] = "707cdc75038c70fe91779b888ac050f128565d3967ba96680e1b1c7cc9
 RDEPENDS:${PN} += "dist-checkconflicts-perl"
 RDEPENDS:${PN} += "module-runtime-perl"
 
-S = "${WORKDIR}/Module-Runtime-Conflicts-${PV}"
+S = "${UNPACKDIR}/Module-Runtime-Conflicts-${PV}"
 
 inherit cpan allarch
 

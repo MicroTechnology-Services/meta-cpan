@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "cbe0e1c3ee54738d900c739ea348efda"
 SRC_URI[sha256sum] = "c0480b5f1f15b71163ec327b8e7842298f0cb3ace97e63d7034af1e94a2d90f4"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/WWW-Form-UrlEncoded-${PV}"
+S = "${UNPACKDIR}/WWW-Form-UrlEncoded-${PV}"
 
 inherit cpan_build allarch
 

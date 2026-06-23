@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.048.tar.gz"
 SRC_URI[md5sum] = "5a8cec571c51a118b265cf6e24e55761"
 SRC_URI[sha256sum] = "3d81c3cc1b5cff69cca9361e2c6e38df0352251ae7b41e2ff3febc850e463565"
 
-S = "${WORKDIR}/IPC-Run3-${PV}"
+S = "${UNPACKDIR}/IPC-Run3-${PV}"
 
 inherit cpan allarch
 

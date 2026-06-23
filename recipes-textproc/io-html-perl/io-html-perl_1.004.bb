@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/C/CJ/CJM/IO-HTML-1.004.tar.gz"
 SRC_URI[md5sum] = "04bbe363686fd19bfb4cc0ed775e3d03"
 SRC_URI[sha256sum] = "c87b2df59463bbf2c39596773dfb5c03bde0f7e1051af339f963f58c1cbd8bf5"
 
-S = "${WORKDIR}/IO-HTML-${PV}"
+S = "${UNPACKDIR}/IO-HTML-${PV}"
 
 inherit cpan allarch
 

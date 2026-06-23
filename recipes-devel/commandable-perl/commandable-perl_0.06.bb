@@ -21,7 +21,7 @@ DEPENDS += "module-build-perl-native"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/Commandable-${PV}"
+S = "${UNPACKDIR}/Commandable-${PV}"
 
 inherit cpan_build allarch
 

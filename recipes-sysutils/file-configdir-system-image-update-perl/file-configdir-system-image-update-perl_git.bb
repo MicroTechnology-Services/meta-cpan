@@ -15,7 +15,7 @@ SRC_URI = "git://github.com/perl5-utils/File-ConfigDir-System-Image-Update.git;r
 
 RDEPENDS:${PN} += "file-configdir-perl"
 
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}/git"
 
 inherit cpan allarch
 

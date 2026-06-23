@@ -21,7 +21,7 @@ RDEPENDS:${PN} += "sub-name-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/Package-DeprecationManager-${PV}"
+S = "${UNPACKDIR}/Package-DeprecationManager-${PV}"
 
 inherit cpan allarch
 

@@ -20,7 +20,7 @@ SRC_URI[md5sum] = "edf57b6189f7651a6be454062a4e6d9c"
 SRC_URI[sha256sum] = "e8baa07b1b3f53e00af3636898bbf73aec9a0ff38f94536ede1dbe96ef086f04"
 RDEPENDS:${PN} += "algorithm-diff-perl"
 
-S = "${WORKDIR}/Text-Diff-${PV}"
+S = "${UNPACKDIR}/Text-Diff-${PV}"
 
 inherit cpan allarch
 

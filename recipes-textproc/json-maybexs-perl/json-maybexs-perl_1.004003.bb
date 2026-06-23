@@ -20,7 +20,7 @@ SRC_URI[sha256sum] = "5bee3b17ff9dcffd6e99ab8cf7f35747650bfce1dc622e3ad10b85a194
 RRECOMMENDS:${PN} += "cpanel-json-xs-perl"
 DEPENDS += "test-needs-perl-native"
 
-S = "${WORKDIR}/JSON-MaybeXS-${PV}"
+S = "${UNPACKDIR}/JSON-MaybeXS-${PV}"
 
 inherit cpan allarch
 

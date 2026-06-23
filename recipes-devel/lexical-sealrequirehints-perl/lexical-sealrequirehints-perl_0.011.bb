@@ -24,7 +24,7 @@ SRC_URI[md5sum] = "210635d5316693885eb328986ef8e1d8"
 SRC_URI[sha256sum] = "9e918ed118ef685d6e09dab1cd6e66ee0a31d776fe24bba63e5243906f56013a"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/Lexical-SealRequireHints-${PV}"
+S = "${UNPACKDIR}/Lexical-SealRequireHints-${PV}"
 
 EXTRA_CPAN_BUILD_FLAGS = "--config cc="${CC}" --config ccflags="${CFLAGS}" --config ld="${CCLD} ${LDFLAGS}""
 

@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "da1b6a9f7c7424776363182f9673e666b06136f13dc744241f7adce3d1
 RDEPENDS:${PN} += "module-implementation-perl"
 RDEPENDS:${PN} += "sub-exporter-progressive-perl"
 
-S = "${WORKDIR}/B-Hooks-EndOfScope-${PV}"
+S = "${UNPACKDIR}/B-Hooks-EndOfScope-${PV}"
 
 inherit cpan
 

@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/E/ET/ETHER/Sub-Name-0.26.tar.gz"
 SRC_URI[md5sum] = "0eb109dfa223e056c07d84c9fbda1762"
 SRC_URI[sha256sum] = "2d2f2d697d516c89547e7c4307f1e79441641cae2c7395e7319b306d390df105"
 
-S = "${WORKDIR}/Sub-Name-${PV}"
+S = "${UNPACKDIR}/Sub-Name-${PV}"
 
 inherit cpan
 

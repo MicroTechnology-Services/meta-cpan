@@ -20,7 +20,7 @@ DEPENDS += "rrdtool-native"
 RDEPENDS:${PN} += "rrdtool-perl"
 RDEPENDS:${PN} += "log-log4perl-perl"
 
-S = "${WORKDIR}/RRDTool-OO-${PV}"
+S = "${UNPACKDIR}/RRDTool-OO-${PV}"
 
 inherit cpan allarch
 

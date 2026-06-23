@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "110c9bfd78051ab3769dad339395c7ba"
 SRC_URI[sha256sum] = "e2f6a4029a6a242d50054044f1fb86770b9b5cc4daeb1a967f91ffb42716a8c5"
 DEPENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/File-Slurper-${PV}"
+S = "${UNPACKDIR}/File-Slurper-${PV}"
 
 inherit cpan allarch
 

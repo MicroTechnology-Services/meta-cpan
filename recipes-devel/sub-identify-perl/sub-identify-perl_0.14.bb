@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-0.14.t
 SRC_URI[md5sum] = "014f19e72698b6a2cbcb54adc9691825"
 SRC_URI[sha256sum] = "068d272086514dd1e842b6a40b1bedbafee63900e5b08890ef6700039defad6f"
 
-S = "${WORKDIR}/Sub-Identify-${PV}"
+S = "${UNPACKDIR}/Sub-Identify-${PV}"
 
 inherit cpan
 

@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/K/KA/KAZUHO/HTTP-Parser-XS-0.17.
 SRC_URI[md5sum] = "148579affbdfee247c47460924d6833d"
 SRC_URI[sha256sum] = "794e6833e326b10d24369f9cdbfc1667105ef6591e8f41e561a3d41a7027a809"
 
-S = "${WORKDIR}/HTTP-Parser-XS-${PV}"
+S = "${UNPACKDIR}/HTTP-Parser-XS-${PV}"
 
 EXTRA_PERLFLAGS = "-Mlib=."
 

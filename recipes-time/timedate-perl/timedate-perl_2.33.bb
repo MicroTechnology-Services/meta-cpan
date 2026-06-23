@@ -15,7 +15,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/TimeDate-2.33.tar.g
 SRC_URI[md5sum] = "5e5afe22c8d417417283d1f7f4572a57"
 SRC_URI[sha256sum] = "c0b69c4b039de6f501b0d9f13ec58c86b040c1f7e9b27ef249651c143d605eb2"
 
-S = "${WORKDIR}/TimeDate-${PV}"
+S = "${UNPACKDIR}/TimeDate-${PV}"
 
 inherit cpan allarch
 

@@ -34,7 +34,7 @@ RDEPENDS:${PN} += "www-form-urlencoded-perl"
 DEPENDS += "file-sharedir-install-perl-native"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/Plack-${PV}"
+S = "${UNPACKDIR}/Plack-${PV}"
 
 inherit cpan allarch
 

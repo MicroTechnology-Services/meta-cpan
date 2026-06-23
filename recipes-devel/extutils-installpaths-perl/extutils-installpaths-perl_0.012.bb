@@ -16,7 +16,7 @@ SRC_URI[md5sum] = "9a8d66aab1ffec98ea260faf03ac612b"
 SRC_URI[sha256sum] = "84735e3037bab1fdffa3c2508567ad412a785c91599db3c12593a50a1dd434ed"
 RDEPENDS:${PN} += "extutils-config-perl"
 
-S = "${WORKDIR}/ExtUtils-InstallPaths-${PV}"
+S = "${UNPACKDIR}/ExtUtils-InstallPaths-${PV}"
 
 inherit cpan allarch
 

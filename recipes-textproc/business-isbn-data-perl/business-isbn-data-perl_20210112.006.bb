@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-20
 SRC_URI[md5sum] = "a3c6d1ff77eb33d63a35f1a1564530b8"
 SRC_URI[sha256sum] = "98c2cfb266b5fdd016989abaa471d9dd4c1d593c508a6f01f66d184d5fee8bae"
 
-S = "${WORKDIR}/Business-ISBN-Data-${PV}"
+S = "${UNPACKDIR}/Business-ISBN-Data-${PV}"
 
 inherit cpan allarch
 

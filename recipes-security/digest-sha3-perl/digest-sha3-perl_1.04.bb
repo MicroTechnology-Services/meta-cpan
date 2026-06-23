@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/M/MS/MSHELOR/Digest-SHA3-1.04.ta
 SRC_URI[md5sum] = "0fc1057f86916e6b5f96199ac5c7d4f4"
 SRC_URI[sha256sum] = "4a68b67c5034f40fbb1344b304cd66caaa5e320eb523005201cc24f76d470c14"
 
-S = "${WORKDIR}/Digest-SHA3-${PV}"
+S = "${UNPACKDIR}/Digest-SHA3-${PV}"
 
 inherit cpan
 

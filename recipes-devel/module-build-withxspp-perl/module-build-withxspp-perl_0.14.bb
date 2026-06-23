@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "extutils-xspp-perl"
 RDEPENDS:${PN} += "module-build-perl"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/Module-Build-WithXSpp-${PV}"
+S = "${UNPACKDIR}/Module-Build-WithXSpp-${PV}"
 
 inherit cpan_build allarch
 

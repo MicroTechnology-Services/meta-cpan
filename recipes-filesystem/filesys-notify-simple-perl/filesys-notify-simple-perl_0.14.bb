@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "1fda712d4ba5e1868159ed35f6f8efbfae9d435d6376f5606d533bcb08
 RDEPENDS:${PN} += "linux-inotify2-perl"
 DEPENDS += "test-sharedfork-perl-native"
 
-S = "${WORKDIR}/Filesys-Notify-Simple-${PV}"
+S = "${UNPACKDIR}/Filesys-Notify-Simple-${PV}"
 
 inherit cpan allarch
 

@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/K/KW/KWILLIAMS/Path-Class-0.37.t
 SRC_URI[md5sum] = "13e6db714f6d5a0e62ca1c4a7fc4d0f3"
 SRC_URI[sha256sum] = "654781948602386f2cb2e4473a739f17dc6953d92aabc2498a4ca2561bc248ce"
 
-S = "${WORKDIR}/Path-Class-${PV}"
+S = "${UNPACKDIR}/Path-Class-${PV}"
 
 inherit cpan allarch
 

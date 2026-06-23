@@ -16,7 +16,7 @@ SRC_URI[md5sum] = "3101aea2e3ae41d48fd8874414430cef"
 SRC_URI[sha256sum] = "2932e865610e80758f764c586757ef8e11db1284d958e25e4b7a85098414c59f"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/Test-SharedFork-${PV}"
+S = "${UNPACKDIR}/Test-SharedFork-${PV}"
 
 inherit cpan allarch
 

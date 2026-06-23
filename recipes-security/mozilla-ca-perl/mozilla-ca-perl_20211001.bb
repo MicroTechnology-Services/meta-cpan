@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AB/ABH/Mozilla-CA-20211001.tar
 SRC_URI[md5sum] = "843e42f367ea3c7abc5de5b6225791dc"
 SRC_URI[sha256sum] = "122c8900000a9d388aa8e44f911cab6c118fe8497417917a84a8ec183971b449"
 
-S = "${WORKDIR}/Mozilla-CA-${PV}"
+S = "${UNPACKDIR}/Mozilla-CA-${PV}"
 
 inherit cpan allarch
 

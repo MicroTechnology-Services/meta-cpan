@@ -21,7 +21,7 @@ SRC_URI[sha256sum] = "8a10a83c3e183dc78f9e7b7aa4d09b47c11fb4e7d3a33b9a12912fd22e
 RDEPENDS:${PN} += "b-hooks-endofscope-perl"
 RDEPENDS:${PN} += "package-stash-perl"
 
-S = "${WORKDIR}/namespace-clean-${PV}"
+S = "${UNPACKDIR}/namespace-clean-${PV}"
 
 inherit cpan allarch
 

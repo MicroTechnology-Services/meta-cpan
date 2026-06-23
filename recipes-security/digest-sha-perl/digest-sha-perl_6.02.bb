@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/M/MS/MSHELOR/Digest-SHA-6.02.tar
 SRC_URI[md5sum] = "e22f92fa4e2d7ec9b1168538b307d31c"
 SRC_URI[sha256sum] = "2c66a6bea3eac9c210315ac7bf0af3e2e35679c4b65d8bae1ad4be3a58039b06"
 
-S = "${WORKDIR}/Digest-SHA-${PV}"
+S = "${UNPACKDIR}/Digest-SHA-${PV}"
 
 inherit cpan update-alternatives
 

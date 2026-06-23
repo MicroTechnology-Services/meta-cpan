@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/K/KW/KWILLIAMS/Probe-Perl-0.03.t
 SRC_URI[md5sum] = "8876e1b99c531800a86b383702e0ab73"
 SRC_URI[sha256sum] = "d9e4d21e2e77638559045fa09046b1b6fff6c403b949929db213e30abe8a3c31"
 
-S = "${WORKDIR}/Probe-Perl-${PV}"
+S = "${UNPACKDIR}/Probe-Perl-${PV}"
 
 inherit cpan allarch
 

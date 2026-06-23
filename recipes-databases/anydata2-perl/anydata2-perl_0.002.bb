@@ -21,7 +21,7 @@ RDEPENDS:${PN} += "module-runtime-perl"
 RECOMMENDS += "text-csv-perl-native"
 RECOMMENDS += "text-csv-xs-perl-native"
 
-S = "${WORKDIR}/AnyData2-${PV}"
+S = "${UNPACKDIR}/AnyData2-${PV}"
 
 inherit cpan allarch
 

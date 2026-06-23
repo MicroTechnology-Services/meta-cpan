@@ -21,7 +21,7 @@ SRC_URI[md5sum] = "77123a4cc874f72d7188f859626bdd84"
 SRC_URI[sha256sum] = "b5203782d03c79aa5822cf33d1828aaa3b4db93a275d4a428c89f56f4713361f"
 DEPENDS += "test-inter-perl-native"
 
-S = "${WORKDIR}/Date-Manip-${PV}"
+S = "${UNPACKDIR}/Date-Manip-${PV}"
 
 inherit cpan allarch
 

@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "b02925eacea03913a922f4b45020b5ac"
 SRC_URI[sha256sum] = "c7b5d1bef59ef9087ff67eb3168d2624be94ae5464469e259ad11bfb8ad8cdcd"
 DEPENDS += "extutils-depends-perl-native"
 
-S = "${WORKDIR}/B-Hooks-OP-Check-${PV}"
+S = "${UNPACKDIR}/B-Hooks-OP-Check-${PV}"
 
 inherit cpan
 

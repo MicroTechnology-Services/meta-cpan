@@ -19,7 +19,7 @@ SRC_URI[sha256sum] = "9af790eb92d1c6330d33c6daa8decf8a9c5dcc87b81779d6b12e14b931
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-nowarnings-perl-native"
 
-S = "${WORKDIR}/Math-Random-ISAAC-XS-${PV}"
+S = "${UNPACKDIR}/Math-Random-ISAAC-XS-${PV}"
 
 EXTRA_CPAN_BUILD_FLAGS = "--config cc="${CC}" --config ccflags="${CFLAGS}" --config ld="${CCLD} ${LDFLAGS}""
 

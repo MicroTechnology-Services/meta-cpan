@@ -24,7 +24,7 @@ DEPENDS += "config-autoconf-perl-native"
 DEPENDS += "libstatgrab"
 RECOMMENDS += "test-leaktrace-perl-native"
 
-S = "${WORKDIR}/Unix-Statgrab-${PV}"
+S = "${UNPACKDIR}/Unix-Statgrab-${PV}"
 
 inherit cpan pkgconfig
 

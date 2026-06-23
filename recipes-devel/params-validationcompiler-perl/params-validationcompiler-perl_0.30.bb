@@ -23,7 +23,7 @@ DEPENDS += "test-without-module-perl-native"
 DEPENDS += "test2-plugin-nowarnings-perl-native"
 DEPENDS += "test2-suite-perl-native"
 
-S = "${WORKDIR}/Params-ValidationCompiler-${PV}"
+S = "${UNPACKDIR}/Params-ValidationCompiler-${PV}"
 
 inherit cpan allarch
 

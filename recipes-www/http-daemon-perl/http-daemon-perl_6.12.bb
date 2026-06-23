@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "lwp-mediatypes-perl"
 DEPENDS += "test-needs-perl-native"
 DEPENDS += "uri-perl-native"
 
-S = "${WORKDIR}/HTTP-Daemon-${PV}"
+S = "${UNPACKDIR}/HTTP-Daemon-${PV}"
 
 inherit cpan allarch
 

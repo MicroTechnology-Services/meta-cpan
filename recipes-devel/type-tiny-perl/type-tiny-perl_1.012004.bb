@@ -24,7 +24,7 @@ RRECOMMENDS:${PN} += "type-tie-perl"
 RRECOMMENDS:${PN} += "type-tiny-xs-perl"
 RECOMMENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/Type-Tiny-${PV}"
+S = "${UNPACKDIR}/Type-Tiny-${PV}"
 
 inherit cpan allarch
 

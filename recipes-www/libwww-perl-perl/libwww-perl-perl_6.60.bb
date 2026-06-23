@@ -37,7 +37,7 @@ DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requiresinternet-perl-native"
 RECOMMENDS += "test-leaktrace-perl-native"
 
-S = "${WORKDIR}/libwww-perl-${PV}"
+S = "${UNPACKDIR}/libwww-perl-${PV}"
 
 inherit cpan allarch
 

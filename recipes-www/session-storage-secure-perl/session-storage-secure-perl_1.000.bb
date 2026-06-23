@@ -30,7 +30,7 @@ DEPENDS += "number-tolerant-perl-native"
 DEPENDS += "test-deep-perl-native"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Session-Storage-Secure-${PV}"
+S = "${UNPACKDIR}/Session-Storage-Secure-${PV}"
 
 inherit cpan allarch
 

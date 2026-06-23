@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "f7a907b7ed91ff68aa9cfe4c57385658a8af6110c516f3a11d5ee9fe7b
 RDEPENDS:${PN} += "module-pluggable-perl"
 RDEPENDS:${PN} += "moo-perl"
 
-S = "${WORKDIR}/MooX-Roles-Pluggable-${PV}"
+S = "${UNPACKDIR}/MooX-Roles-Pluggable-${PV}"
 
 inherit cpan allarch
 

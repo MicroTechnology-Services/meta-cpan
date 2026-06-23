@@ -24,7 +24,7 @@ RRECOMMENDS:${PN} += "log-dispatch-perl"
 RRECOMMENDS:${PN} += "sql-statement-perl"
 RRECOMMENDS:${PN} += "xml-dom-perl"
 
-S = "${WORKDIR}/Log-Log4perl-${PV}"
+S = "${UNPACKDIR}/Log-Log4perl-${PV}"
 
 inherit cpan allarch
 

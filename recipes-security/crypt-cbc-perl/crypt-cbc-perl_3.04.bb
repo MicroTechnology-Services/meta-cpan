@@ -20,7 +20,7 @@ SRC_URI[sha256sum] = "4026c57d0dbf6496c0d561a26f161b763d3b8edf351139c073492e21b5
 RDEPENDS:${PN} += "crypt-pbkdf2-perl"
 RDEPENDS:${PN} += "cryptx-perl"
 
-S = "${WORKDIR}/Crypt-CBC-${PV}"
+S = "${UNPACKDIR}/Crypt-CBC-${PV}"
 
 inherit cpan allarch
 

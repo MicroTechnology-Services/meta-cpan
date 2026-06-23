@@ -20,7 +20,7 @@ SRC_URI[md5sum] = "84b799a90c0d2ce52897a7cb4c0478d0"
 SRC_URI[sha256sum] = "8f1bca12dab16a1c2a7c03a49c5e58cce41a6fec9519f0aadfba8dad997919d9"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/LWP-MediaTypes-${PV}"
+S = "${UNPACKDIR}/LWP-MediaTypes-${PV}"
 
 inherit cpan allarch
 

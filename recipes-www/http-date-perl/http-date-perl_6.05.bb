@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "2ecbb3aedf6aef062605191813ca3027"
 SRC_URI[sha256sum] = "365d6294dfbd37ebc51def8b65b81eb79b3934ecbc95a2ec2d4d827efe6a922b"
 RDEPENDS:${PN} += "timedate-perl"
 
-S = "${WORKDIR}/HTTP-Date-${PV}"
+S = "${UNPACKDIR}/HTTP-Date-${PV}"
 
 inherit cpan allarch
 

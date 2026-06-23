@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "list-moreutils-xs-perl"
 DEPENDS += "test-leaktrace-perl-native"
 RECOMMENDS += "config-autoconf-perl-native"
 
-S = "${WORKDIR}/List-MoreUtils-${PV}"
+S = "${UNPACKDIR}/List-MoreUtils-${PV}"
 
 inherit cpan allarch
 

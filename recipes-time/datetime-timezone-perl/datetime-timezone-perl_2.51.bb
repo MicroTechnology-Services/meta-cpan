@@ -25,7 +25,7 @@ RDEPENDS:${PN} += "try-tiny-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/DateTime-TimeZone-${PV}"
+S = "${UNPACKDIR}/DateTime-TimeZone-${PV}"
 
 inherit cpan allarch
 

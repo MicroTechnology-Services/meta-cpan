@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AR/ARODLAND/Digest-HMAC-1.04.t
 SRC_URI[md5sum] = "746a5edffd1485d7500e005730c271c8"
 SRC_URI[sha256sum] = "d6bc8156aa275c44d794b7c18f44cdac4a58140245c959e6b19b2c3838b08ed4"
 
-S = "${WORKDIR}/Digest-HMAC-${PV}"
+S = "${UNPACKDIR}/Digest-HMAC-${PV}"
 
 inherit cpan
 

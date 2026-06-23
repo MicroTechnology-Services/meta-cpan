@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "5030a6d6cbffaf12583050bf552aa800d4646ca9678c187add649227f5
 DEPENDS += "test-deep-perl-native"
 DEPENDS += "test-yaml-perl-native"
 
-S = "${WORKDIR}/YAML-${PV}"
+S = "${UNPACKDIR}/YAML-${PV}"
 
 inherit cpan allarch
 

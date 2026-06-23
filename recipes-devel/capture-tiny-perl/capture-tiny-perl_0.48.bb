@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Capture-Tiny-0.48.
 SRC_URI[md5sum] = "f5d24083ad270f8326dd659dd83eeb54"
 SRC_URI[sha256sum] = "6c23113e87bad393308c90a207013e505f659274736638d8c79bac9c67cc3e19"
 
-S = "${WORKDIR}/Capture-Tiny-${PV}"
+S = "${UNPACKDIR}/Capture-Tiny-${PV}"
 
 inherit cpan allarch
 

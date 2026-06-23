@@ -22,7 +22,7 @@ SRC_URI[sha256sum] = "2773f02fbf207e9745e76a037df08bf5a8cc987ed23c57040ce7f7b156
 RRECOMMENDS:${PN} += "math-random-isaac-xs-perl"
 DEPENDS += "test-nowarnings-perl-native"
 
-S = "${WORKDIR}/Math-Random-ISAAC-${PV}"
+S = "${UNPACKDIR}/Math-Random-ISAAC-${PV}"
 
 inherit cpan allarch
 

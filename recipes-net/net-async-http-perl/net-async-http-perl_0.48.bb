@@ -31,7 +31,7 @@ DEPENDS += "test-identity-perl-native"
 DEPENDS += "test-metrics-any-perl-native"
 DEPENDS += "test-refcount-perl-native"
 
-S = "${WORKDIR}/Net-Async-HTTP-${PV}"
+S = "${UNPACKDIR}/Net-Async-HTTP-${PV}"
 
 inherit cpan_build allarch
 

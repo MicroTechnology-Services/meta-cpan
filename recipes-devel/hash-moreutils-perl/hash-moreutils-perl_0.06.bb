@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RE/REHSACK/Hash-MoreUtils-0.06
 SRC_URI[md5sum] = "525f11766a1b548bcc07c4030b3b09fd"
 SRC_URI[sha256sum] = "db9a8fb867d50753c380889a5e54075651b5e08c9b3b721cb7220c0883547de8"
 
-S = "${WORKDIR}/Hash-MoreUtils-${PV}"
+S = "${UNPACKDIR}/Hash-MoreUtils-${PV}"
 
 inherit cpan allarch
 

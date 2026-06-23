@@ -17,7 +17,7 @@ SRC_URI[sha256sum] = "8da15d0e4d5077b6c5d203765b2885bf728e509e32de9264605c086213
 RDEPENDS:${PN} += "constant-defer-perl"
 RDEPENDS:${PN} += "math-libm-perl"
 
-S = "${WORKDIR}/Math-PlanePath-${PV}"
+S = "${UNPACKDIR}/Math-PlanePath-${PV}"
 
 inherit cpan allarch
 

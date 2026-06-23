@@ -20,7 +20,7 @@ RECOMMENDS += "config-autoconf-perl-native"
 RECOMMENDS += "inc-latest-perl-native"
 RECOMMENDS += "test-leaktrace-perl-native"
 
-S = "${WORKDIR}/List-MoreUtils-XS-${PV}"
+S = "${UNPACKDIR}/List-MoreUtils-XS-${PV}"
 
 inherit cpan
 

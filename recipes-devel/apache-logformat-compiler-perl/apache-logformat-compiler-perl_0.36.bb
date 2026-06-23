@@ -23,7 +23,7 @@ DEPENDS += "test-requires-perl-native"
 DEPENDS += "try-tiny-perl-native"
 DEPENDS += "uri-perl-native"
 
-S = "${WORKDIR}/Apache-LogFormat-Compiler-${PV}"
+S = "${UNPACKDIR}/Apache-LogFormat-Compiler-${PV}"
 
 inherit cpan_build allarch
 

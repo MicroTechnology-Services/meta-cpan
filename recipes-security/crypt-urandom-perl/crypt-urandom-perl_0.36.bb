@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DD/DDICK/Crypt-URandom-0.36.ta
 SRC_URI[md5sum] = "d19cdb64e3db13fdf32542c51eaaa79c"
 SRC_URI[sha256sum] = "81fec9921adc5d3c91cbe0ad8cb2bb89b045c4fb0de9cb3c43f17e58e477f8a1"
 
-S = "${WORKDIR}/Crypt-URandom-${PV}"
+S = "${UNPACKDIR}/Crypt-URandom-${PV}"
 
 inherit cpan allarch
 

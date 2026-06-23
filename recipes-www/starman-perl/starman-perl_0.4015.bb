@@ -25,7 +25,7 @@ DEPENDS += "libwww-perl-perl-native"
 DEPENDS += "module-build-tiny-perl-native"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/Starman-${PV}"
+S = "${UNPACKDIR}/Starman-${PV}"
 
 inherit cpan_build allarch
 

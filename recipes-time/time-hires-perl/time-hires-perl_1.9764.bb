@@ -20,7 +20,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AT/ATOOMIC/Time-HiRes-1.9764.t
 SRC_URI[md5sum] = "933103b1f4febedd974cdfaefb140bf3"
 SRC_URI[sha256sum] = "9841be5587bfb7cd1f2fe267b5e5ac04ce25e79d5cc77e5ef9a9c5abd101d7b1"
 
-S = "${WORKDIR}/Time-HiRes-${PV}"
+S = "${UNPACKDIR}/Time-HiRes-${PV}"
 
 inherit cpan
 

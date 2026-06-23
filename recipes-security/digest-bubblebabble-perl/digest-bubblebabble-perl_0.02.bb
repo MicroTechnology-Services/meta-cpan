@@ -22,7 +22,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/B/BT/BTROTT/Digest-BubbleBabble-
 SRC_URI[md5sum] = "4d7edd5b0a904db8194aa660d502fbe0"
 SRC_URI[sha256sum] = "80cfb2d2e43d6f79400658600567d2a270b145b4eef5aea58a66957788225c00"
 
-S = "${WORKDIR}/Digest-BubbleBabble-${PV}"
+S = "${UNPACKDIR}/Digest-BubbleBabble-${PV}"
 
 inherit cpan allarch
 

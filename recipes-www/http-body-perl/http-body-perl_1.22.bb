@@ -19,7 +19,7 @@ SRC_URI[sha256sum] = "fc0d2c585b3bd1532d92609965d589e0c87cd380e7cca42fb9ad0a1311
 RDEPENDS:${PN} += "http-message-perl"
 DEPENDS += "test-deep-perl-native"
 
-S = "${WORKDIR}/HTTP-Body-${PV}"
+S = "${UNPACKDIR}/HTTP-Body-${PV}"
 
 inherit cpan allarch
 

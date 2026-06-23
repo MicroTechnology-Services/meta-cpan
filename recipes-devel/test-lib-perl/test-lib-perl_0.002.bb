@@ -19,7 +19,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/H/HA/HAARG/Test-Lib-0.002.tar.gz
 SRC_URI[md5sum] = "b24e39b9818ee11eca3d9d647e4aa395"
 SRC_URI[sha256sum] = "14aead0483df0893600865c8c80c99709f8667381488fe45a516009a4eb35f11"
 
-S = "${WORKDIR}/Test-Lib-${PV}"
+S = "${UNPACKDIR}/Test-Lib-${PV}"
 
 inherit cpan allarch
 

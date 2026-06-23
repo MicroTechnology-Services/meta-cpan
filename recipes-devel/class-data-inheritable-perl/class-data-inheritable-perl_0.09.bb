@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/R/RS/RSHERER/Class-Data-Inherita
 SRC_URI[md5sum] = "bd25ecd6e5d528fbc3783edf1b8facef"
 SRC_URI[sha256sum] = "44088d6e90712e187b8a5b050ca5b1c70efe2baa32ae123e9bd8f59f29f06e4d"
 
-S = "${WORKDIR}/Class-Data-Inheritable-${PV}"
+S = "${UNPACKDIR}/Class-Data-Inheritable-${PV}"
 
 inherit cpan allarch
 

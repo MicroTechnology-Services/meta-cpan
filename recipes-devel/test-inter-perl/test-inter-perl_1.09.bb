@@ -20,7 +20,7 @@ DEPENDS += "file-find-rule-perl-native"
 DEPENDS += "test-pod-coverage-perl-native"
 DEPENDS += "test-pod-perl-native"
 
-S = "${WORKDIR}/Test-Inter-${PV}"
+S = "${UNPACKDIR}/Test-Inter-${PV}"
 
 inherit cpan allarch
 

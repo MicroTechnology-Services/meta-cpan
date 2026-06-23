@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "4464d2314d79d08af1b3f1828a47dc036d512d6fbba52aa9fe11494d76
 RDEPENDS:${PN} += "syntax-keyword-try-perl"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/Feature-Compat-Try-${PV}"
+S = "${UNPACKDIR}/Feature-Compat-Try-${PV}"
 
 inherit cpan_build allarch
 

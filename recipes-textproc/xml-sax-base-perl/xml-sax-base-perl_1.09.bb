@@ -18,7 +18,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/G/GR/GRANTM/XML-SAX-Base-1.09.ta
 SRC_URI[md5sum] = "ec347a14065dd7aec7d9fb181b2d7946"
 SRC_URI[sha256sum] = "66cb355ba4ef47c10ca738bd35999723644386ac853abbeb5132841f5e8a2ad0"
 
-S = "${WORKDIR}/XML-SAX-Base-${PV}"
+S = "${UNPACKDIR}/XML-SAX-Base-${PV}"
 
 inherit cpan allarch
 

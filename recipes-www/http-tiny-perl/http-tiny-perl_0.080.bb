@@ -20,7 +20,7 @@ RRECOMMENDS:${PN} += "io-socket-ssl-perl"
 RRECOMMENDS:${PN} += "mozilla-ca-perl"
 RRECOMMENDS:${PN} += "net-ssleay-perl"
 
-S = "${WORKDIR}/HTTP-Tiny-${PV}"
+S = "${UNPACKDIR}/HTTP-Tiny-${PV}"
 
 inherit cpan allarch
 

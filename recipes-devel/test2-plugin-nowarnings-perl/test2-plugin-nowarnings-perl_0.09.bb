@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "be3dd800042eef362bf17d2056cf9e934dee91ccce98e4f178b8fb5772
 DEPENDS += "ipc-run3-perl-native"
 DEPENDS += "test2-suite-perl-native"
 
-S = "${WORKDIR}/Test2-Plugin-NoWarnings-${PV}"
+S = "${UNPACKDIR}/Test2-Plugin-NoWarnings-${PV}"
 
 inherit cpan allarch
 

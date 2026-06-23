@@ -17,7 +17,7 @@ SRC_URI[sha256sum] = "80d45f93d6b7290b0bd8b3cedd84a37fc501456cc3dec02ec7aad81c00
 RDEPENDS:${PN} += "plack-perl"
 DEPENDS += "http-message-perl-native"
 
-S = "${WORKDIR}/Plack-Middleware-RemoveRedundantBody-${PV}"
+S = "${UNPACKDIR}/Plack-Middleware-RemoveRedundantBody-${PV}"
 
 inherit cpan allarch
 

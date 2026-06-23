@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "24d7c87e952894eab95a4ba6bef42f3b"
 SRC_URI[sha256sum] = "8b4f703136a0eb1226855ced051a0a2210bd794788122a9eee2eb97a5cddef96"
 DEPENDS += "test-most-perl-native"
 
-S = "${WORKDIR}/Data-Tumbler-${PV}"
+S = "${UNPACKDIR}/Data-Tumbler-${PV}"
 
 inherit cpan allarch
 

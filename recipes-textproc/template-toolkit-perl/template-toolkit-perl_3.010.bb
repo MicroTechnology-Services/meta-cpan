@@ -24,7 +24,7 @@ RDEPENDS:${PN} += "appconfig-perl"
 DEPENDS += "cgi-perl-native"
 DEPENDS += "test-leaktrace-perl-native"
 
-S = "${WORKDIR}/Template-Toolkit-${PV}"
+S = "${UNPACKDIR}/Template-Toolkit-${PV}"
 
 inherit cpan
 

@@ -24,7 +24,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Test-Number-Delta-
 SRC_URI[md5sum] = "f0d420e7f679a0bc593713d21c25f51e"
 SRC_URI[sha256sum] = "535430919e6fdf6ce55ff76e9892afccba3b7d4160db45f3ac43b0f92ffcd049"
 
-S = "${WORKDIR}/Test-Number-Delta-${PV}"
+S = "${UNPACKDIR}/Test-Number-Delta-${PV}"
 
 inherit cpan
 

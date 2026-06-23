@@ -23,7 +23,7 @@ RDEPENDS:${PN} += "sql-statement-perl"
 RDEPENDS:${PN} += "text-csv-xs-perl"
 RECOMMENDS += "test-simple-perl-native"
 
-S = "${WORKDIR}/DBD-CSV-${PV}"
+S = "${UNPACKDIR}/DBD-CSV-${PV}"
 
 inherit cpan allarch
 

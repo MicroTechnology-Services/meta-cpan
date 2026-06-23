@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "42bf4a4b881818be3455f11b46952819"
 SRC_URI[sha256sum] = "fa8722d0b74696e332fddd442994436ea93d3bfc7982d4babdcedfddd657d0f6"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Unicode-UTF8-${PV}"
+S = "${UNPACKDIR}/Unicode-UTF8-${PV}"
 
 inherit cpan
 

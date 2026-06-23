@@ -19,7 +19,7 @@ SRC_URI[md5sum] = "d3d47222fa2e3dfcb4526f6cc8437b20"
 SRC_URI[sha256sum] = "68302ec646833547d410be28e09676db75006f4aa58a11f3bdb44ffe99f0f024"
 DEPENDS += "module-build-perl-native"
 
-S = "${WORKDIR}/Module-Runtime-${PV}"
+S = "${UNPACKDIR}/Module-Runtime-${PV}"
 
 inherit cpan_build allarch
 

@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "html-parser-perl"
 RDEPENDS:${PN} += "plack-perl"
 DEPENDS += "http-message-perl-native"
 
-S = "${WORKDIR}/Plack-Middleware-FixMissingBodyInRedirect-${PV}"
+S = "${UNPACKDIR}/Plack-Middleware-FixMissingBodyInRedirect-${PV}"
 
 inherit cpan allarch
 

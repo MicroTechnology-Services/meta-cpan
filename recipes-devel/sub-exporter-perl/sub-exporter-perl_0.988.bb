@@ -19,7 +19,7 @@ RDEPENDS:${PN} += "data-optlist-perl"
 RDEPENDS:${PN} += "params-util-perl"
 RDEPENDS:${PN} += "sub-install-perl"
 
-S = "${WORKDIR}/Sub-Exporter-${PV}"
+S = "${UNPACKDIR}/Sub-Exporter-${PV}"
 
 inherit cpan allarch
 

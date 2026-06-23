@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "try-tiny-perl"
 DEPENDS += "test-fatal-perl-native"
 DEPENDS += "test-requires-perl-native"
 
-S = "${WORKDIR}/Module-Implementation-${PV}"
+S = "${UNPACKDIR}/Module-Implementation-${PV}"
 
 inherit cpan allarch
 

@@ -20,7 +20,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Importer-0.026.tar.
 SRC_URI[md5sum] = "3f09930b82cadfe26d0ce2fb1338aa1b"
 SRC_URI[sha256sum] = "e08fa84e13cb998b7a897fc8ec9c3459fcc1716aff25cc343e36ef875891b0ef"
 
-S = "${WORKDIR}/Importer-${PV}"
+S = "${UNPACKDIR}/Importer-${PV}"
 
 inherit cpan allarch
 

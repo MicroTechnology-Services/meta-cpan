@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/inc-latest-0.500.t
 SRC_URI[md5sum] = "d1e0deb52bcc9f9b0f990ceb077a8ffd"
 SRC_URI[sha256sum] = "daa905f363c6a748deb7c408473870563fcac79b9e3e95b26e130a4a8dc3c611"
 
-S = "${WORKDIR}/inc-latest-${PV}"
+S = "${UNPACKDIR}/inc-latest-${PV}"
 
 inherit cpan
 

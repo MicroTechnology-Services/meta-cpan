@@ -23,7 +23,7 @@ DEPENDS += "plack-perl-native"
 DEPENDS += "test-mockobject-perl-native"
 DEPENDS += "yaml-perl-native"
 
-S = "${WORKDIR}/Dancer2-Session-Cookie-${PV}"
+S = "${UNPACKDIR}/Dancer2-Session-Cookie-${PV}"
 
 inherit cpan allarch
 

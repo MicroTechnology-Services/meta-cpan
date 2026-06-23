@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "1b07ebac54ce3288c044a23ba60196d2"
 SRC_URI[sha256sum] = "5eddda159f54d16f868e032440ac2b024e55aac48931871b62627f1a16d00b12"
 DEPENDS += "test-deep-perl-native"
 
-S = "${WORKDIR}/HTTP-MultiPartParser-${PV}"
+S = "${UNPACKDIR}/HTTP-MultiPartParser-${PV}"
 
 inherit cpan allarch
 

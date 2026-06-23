@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "2a00d3dbf891df4256d251382aefd9b9"
 SRC_URI[sha256sum] = "16325d5e308c7b7ab623d1bf944e1354c5f2245afcfadb8eed1e2cae9a0bd0b5"
 DEPENDS += "test-needs-perl-native"
 
-S = "${WORKDIR}/URI-${PV}"
+S = "${UNPACKDIR}/URI-${PV}"
 
 inherit cpan allarch
 

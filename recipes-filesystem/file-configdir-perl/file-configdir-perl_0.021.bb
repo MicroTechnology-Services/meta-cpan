@@ -21,7 +21,7 @@ RRECOMMENDS:${PN} += "list-moreutils-perl"
 RRECOMMENDS:${PN} += "list-moreutils-xs-perl"
 DEPENDS += "test-without-module-perl-native"
 
-S = "${WORKDIR}/File-ConfigDir-${PV}"
+S = "${UNPACKDIR}/File-ConfigDir-${PV}"
 
 inherit cpan allarch
 

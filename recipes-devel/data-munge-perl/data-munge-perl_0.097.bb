@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "4c6f56a3af0272ed4509aae646b8c540"
 SRC_URI[sha256sum] = "d63469cab6ceb74247c844301c7d38ecd7d63dc6954a0aa359efbc48353bdd65"
 DEPENDS += "test-warnings-perl-native"
 
-S = "${WORKDIR}/Data-Munge-${PV}"
+S = "${UNPACKDIR}/Data-Munge-${PV}"
 
 inherit cpan allarch
 

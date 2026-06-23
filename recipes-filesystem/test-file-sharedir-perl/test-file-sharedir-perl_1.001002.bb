@@ -23,7 +23,7 @@ RDEPENDS:${PN} += "path-tiny-perl"
 RDEPENDS:${PN} += "scope-guard-perl"
 DEPENDS += "test-fatal-perl-native"
 
-S = "${WORKDIR}/Test-File-ShareDir-${PV}"
+S = "${UNPACKDIR}/Test-File-ShareDir-${PV}"
 
 inherit cpan allarch
 

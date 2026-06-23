@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/C/CO/CORION/Test-Without-Module-
 SRC_URI[md5sum] = "34684186b66929bbcd12d3ac8ae03f9d"
 SRC_URI[sha256sum] = "8e9aeb7c32a6c6d0b8a93114db2a8c072721273a9d9a2dd4f9ca86cfd28aa524"
 
-S = "${WORKDIR}/Test-Without-Module-${PV}"
+S = "${UNPACKDIR}/Test-Without-Module-${PV}"
 
 inherit cpan allarch
 

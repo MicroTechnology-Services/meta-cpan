@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "libdbi-perl"
 RDEPENDS:${PN} += "module-runtime-perl"
 RDEPENDS:${PN} += "sql-statement-perl"
 
-S = "${WORKDIR}/DBD-AnyData2-${PV}"
+S = "${UNPACKDIR}/DBD-AnyData2-${PV}"
 
 inherit cpan allarch
 

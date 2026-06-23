@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "namespace-clean-perl"
 RDEPENDS:${PN} += "sub-identify-perl"
 DEPENDS += "test-needs-perl-native"
 
-S = "${WORKDIR}/namespace-autoclean-${PV}"
+S = "${UNPACKDIR}/namespace-autoclean-${PV}"
 
 inherit cpan allarch
 

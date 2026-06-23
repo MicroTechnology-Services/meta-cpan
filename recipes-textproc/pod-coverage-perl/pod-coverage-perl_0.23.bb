@@ -18,7 +18,7 @@ SRC_URI[md5sum] = "12229e553ee7887680ee3db11da5ee52"
 SRC_URI[sha256sum] = "30b7a0b0c942f44a7552c0d34e9b1f2e0ba0b67955c61e3b1589ec369074b107"
 RDEPENDS:${PN} += "devel-symdump-perl"
 
-S = "${WORKDIR}/Pod-Coverage-${PV}"
+S = "${UNPACKDIR}/Pod-Coverage-${PV}"
 
 inherit cpan allarch
 

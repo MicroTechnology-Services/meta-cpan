@@ -16,7 +16,7 @@ SRC_URI[md5sum] = "6fe89b0144ffb5913fc4b021a80578b4"
 SRC_URI[sha256sum] = "1f300d034f46298cb92960912cc04bac33fb27f05b8852d8f051e110b9cd995f"
 RDEPENDS:${PN} += "test-base-perl"
 
-S = "${WORKDIR}/Test-YAML-${PV}"
+S = "${UNPACKDIR}/Test-YAML-${PV}"
 
 inherit cpan allarch
 

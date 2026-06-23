@@ -17,7 +17,7 @@ SRC_URI[md5sum] = "7747d9241561ed5567d5e134b8648707"
 SRC_URI[sha256sum] = "1177027025ecb09ee64d9f9f255615c04db5e14f7536c344af632032eb887b0f"
 DEPENDS += "test-pod-perl-native"
 
-S = "${WORKDIR}/AppConfig-${PV}"
+S = "${UNPACKDIR}/AppConfig-${PV}"
 
 inherit cpan allarch
 

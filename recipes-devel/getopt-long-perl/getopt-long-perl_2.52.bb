@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/J/JV/JV/Getopt-Long-2.52.tar.gz"
 SRC_URI[md5sum] = "0298636f2743fcff8198eeff1c8248e2"
 SRC_URI[sha256sum] = "9dc7a7c373353d5c05efae548e7b123aa8a31d1f506eb8dbbec8f0dca77705fa"
 
-S = "${WORKDIR}/Getopt-Long-${PV}"
+S = "${UNPACKDIR}/Getopt-Long-${PV}"
 
 inherit cpan allarch
 

@@ -31,7 +31,7 @@ RDEPENDS:${PN} += "struct-dumb-perl"
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-identity-perl-native"
 
-S = "${WORKDIR}/Devel-MAT-${PV}"
+S = "${UNPACKDIR}/Devel-MAT-${PV}"
 
 EXTRA_CPAN_BUILD_FLAGS = "--config cc="${CC}" --config ccflags="${CFLAGS}" --config ld="${LD} ${LDFLAGS}""
 

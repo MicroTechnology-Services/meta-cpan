@@ -20,7 +20,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/A/AM/AMBS/ExtUtils-CBuilder-0.28
 SRC_URI[md5sum] = "a4c9654c7344bbec02ced59a6b6027bb"
 SRC_URI[sha256sum] = "abc21827eb8a513171bf7fdecefce9945132cb76db945036518291f607b1491f"
 
-S = "${WORKDIR}/ExtUtils-CBuilder-${PV}"
+S = "${UNPACKDIR}/ExtUtils-CBuilder-${PV}"
 
 inherit cpan allarch
 

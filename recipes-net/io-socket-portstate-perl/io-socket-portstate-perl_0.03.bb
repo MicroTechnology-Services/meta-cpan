@@ -16,7 +16,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/D/DM/DMUEY/IO-Socket-PortState-0
 SRC_URI[md5sum] = "ba82446a68380e8bd79ab49a5948d6c1"
 SRC_URI[sha256sum] = "9b6272699d2afd6f65aaa118e2613da28a9f3ba7a80c30bd0cfb16619db131bc"
 
-S = "${WORKDIR}/IO-Socket-PortState-${PV}"
+S = "${UNPACKDIR}/IO-Socket-PortState-${PV}"
 
 inherit cpan allarch
 

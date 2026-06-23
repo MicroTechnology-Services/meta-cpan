@@ -20,7 +20,7 @@ SRC_URI[md5sum] = "c8fe8236ab3115fe8d82bdb6545e0770"
 SRC_URI[sha256sum] = "2a90a5eea3f22c40b87932a929621680609ab5f6b874a77c4134c8a04eb8e74b"
 RRECOMMENDS:${PN} += "text-csv-xs-perl"
 
-S = "${WORKDIR}/Text-CSV-${PV}"
+S = "${UNPACKDIR}/Text-CSV-${PV}"
 
 inherit cpan allarch
 

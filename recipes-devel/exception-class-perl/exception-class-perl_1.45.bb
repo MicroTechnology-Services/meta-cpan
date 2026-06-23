@@ -18,7 +18,7 @@ SRC_URI[sha256sum] = "5482a77ef027ca1f9f39e1f48c558356e954936fc8fbbdee6c811c5127
 RDEPENDS:${PN} += "class-data-inheritable-perl"
 RDEPENDS:${PN} += "devel-stacktrace-perl"
 
-S = "${WORKDIR}/Exception-Class-${PV}"
+S = "${UNPACKDIR}/Exception-Class-${PV}"
 
 inherit cpan allarch
 

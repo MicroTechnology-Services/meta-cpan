@@ -20,7 +20,7 @@ SRC_URI[sha256sum] = "5c515707a5433796a5697b118ddbf1f216d13c5cd52f2b64292e76f7d9
 DEPENDS += "module-build-perl-native"
 DEPENDS += "test-leaktrace-perl-native"
 
-S = "${WORKDIR}/Hash-FieldHash-${PV}"
+S = "${UNPACKDIR}/Hash-FieldHash-${PV}"
 
 EXTRA_CPAN_BUILD_FLAGS = "--config cc="${CC}" --config ccflags="${CFLAGS}" --config ld="${CCLD} ${LDFLAGS}""
 

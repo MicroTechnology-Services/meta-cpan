@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/L/LD/LDS/Devel-Cycle-1.12.tar.gz
 SRC_URI[md5sum] = "3d9a963da87b17398fab9acbef63f277"
 SRC_URI[sha256sum] = "fd3365c4d898b2b2bddbb78a46d507a18cca8490a290199547dab7f1e7390bc2"
 
-S = "${WORKDIR}/Devel-Cycle-${PV}"
+S = "${UNPACKDIR}/Devel-Cycle-${PV}"
 
 inherit cpan allarch
 

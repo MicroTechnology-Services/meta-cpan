@@ -17,7 +17,7 @@ SRC_URI = "https://cpan.metacpan.org/authors/id/G/GA/GARU/Data-Dump-1.25.tar.gz"
 SRC_URI[md5sum] = "9bd7131ef0441e1e0e001bf85e9fae31"
 SRC_URI[sha256sum] = "a4aa6e0ddbf39d5ad49bddfe0f89d9da864e3bc00f627125d1bc580472f53fbd"
 
-S = "${WORKDIR}/Data-Dump-${PV}"
+S = "${UNPACKDIR}/Data-Dump-${PV}"
 
 inherit cpan allarch
 
