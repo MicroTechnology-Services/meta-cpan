@@ -7,8 +7,8 @@ SECTION = "libs"
 LICENSE = "BSD-3-Clause"
 PR = "r0"
 
-MAINTAINER=	"Poky <poky@yoctoproject.org>"
-HOMEPAGE=	"https://metacpan.org/release/Data-UUID"
+MAINTAINER = "Poky <poky@yoctoproject.org>"
+HOMEPAGE = "https://metacpan.org/release/Data-UUID"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/BSD-3-Clause;md5=550794465ba0ec5312d6919e203a55f9"
 

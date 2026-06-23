@@ -9,8 +9,8 @@ SECTION = "libs"
 LICENSE = "LGPL-2.1-only"
 PR = "r0"
 
-MAINTAINER=	"Poky <poky@yoctoproject.org>"
-HOMEPAGE=	"https://metacpan.org/release/Test-NoWarnings"
+MAINTAINER = "Poky <poky@yoctoproject.org>"
+HOMEPAGE = "https://metacpan.org/release/Test-NoWarnings"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/LGPL-2.1-only;md5=1a6d268fd218675ffea8be556788b780"
 

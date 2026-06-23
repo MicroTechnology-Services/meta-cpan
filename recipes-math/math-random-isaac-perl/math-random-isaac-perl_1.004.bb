@@ -6,8 +6,8 @@ SECTION = "libs"
 LICENSE = "PD | MIT | Artistic-2.0 | GPL-3.0-or-later"
 PR = "r0"
 
-MAINTAINER=	"Poky <poky@yoctoproject.org>"
-HOMEPAGE=	"https://metacpan.org/release/Math-Random-ISAAC"
+MAINTAINER = "Poky <poky@yoctoproject.org>"
+HOMEPAGE = "https://metacpan.org/release/Math-Random-ISAAC"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/PD;md5=b3597d12946881e13cb3b548d1173851 \
 file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302 \

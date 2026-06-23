@@ -5,8 +5,8 @@ SECTION = "libs"
 LICENSE = "GPL-3.0-only"
 PR = "r0"
 
-MAINTAINER=	"Poky <poky@yoctoproject.org>"
-HOMEPAGE=	"https://metacpan.org/release/Math-PlanePath"
+MAINTAINER = "Poky <poky@yoctoproject.org>"
+HOMEPAGE = "https://metacpan.org/release/Math-PlanePath"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/GPL-3.0-only;md5=c79ff39f19dfec6d293b95dea7b07891"
 

@@ -5,8 +5,8 @@ SECTION = "libs"
 LICENSE = "Artistic-1.0 | GPL-2.0-only"
 PR = "r0"
 
-MAINTAINER=	"Poky <poky@yoctoproject.org>"
-HOMEPAGE=	"https://metacpan.org/release/Math-Libm"
+MAINTAINER = "Poky <poky@yoctoproject.org>"
+HOMEPAGE = "https://metacpan.org/release/Math-Libm"
 
 LIC_FILES_CHKSUM = "file://${THISDIR}/math-libm-perl/copyright;md5=d843e1a5ef49154a634b896878333c83"
 

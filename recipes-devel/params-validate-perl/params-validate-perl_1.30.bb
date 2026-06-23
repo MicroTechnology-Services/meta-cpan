@@ -7,8 +7,8 @@ SECTION = "libs"
 LICENSE = "Artistic-2.0"
 PR = "r0"
 
-MAINTAINER=	"Poky <poky@yoctoproject.org>"
-HOMEPAGE=	"https://metacpan.org/release/Params-Validate"
+MAINTAINER = "Poky <poky@yoctoproject.org>"
+HOMEPAGE = "https://metacpan.org/release/Params-Validate"
 
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/Artistic-2.0;md5=8bbc66f0ba93cec26ef526117e280266"
 
@@ -26,8 +26,8 @@ S = "${WORKDIR}/Params-Validate-${PV}"
 inherit cpan_build allarch
 
 # daisy
-EXTRA_BUILDFLAGS="--pureperl_only"
+EXTRA_BUILDFLAGS = "--pureperl_only"
 # jethro+
-EXTRA_CPAN_BUILD_FLAGS="--pureperl_only"
+EXTRA_CPAN_BUILD_FLAGS = "--pureperl_only"
 
 BBCLASSEXTEND = "native"
